@@ -1,23 +1,23 @@
 const storage = {
-  get(key) {
+  get: (key) => {
     return localStorage.getItem(key);
   },
 
-  set(key, value) {
+  set: (key, value) => {
     const now = new Date();
 
     const item = {
       value,
-      expires: now.getTime() + 60 * 60 * 1000, // 1 hour
+      expires: now.getTime() + 60 * 60 * 1000,
     };
     localStorage.setItem(key, item);
   },
 
-  remove(key) {
+  remove: (key) => {
     localStorage.removeItem(key);
   },
 
-  clear() {
+  clear: () => {
     localStorage.clear();
   },
 };
