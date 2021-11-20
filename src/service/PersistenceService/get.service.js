@@ -1,7 +1,7 @@
 import storage from '../../infrastructure/storage/storage';
 
-const getItem = (key) => {
+const get = (key) => {
   return storage.get(key);
 };
 
-export default getItem;
+export default get;

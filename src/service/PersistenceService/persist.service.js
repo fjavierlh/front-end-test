@@ -1,7 +1,7 @@
 import storage from '../../infrastructure/storage/storage';
 
-const setItem = (key, value) => {
+const persist = (key, value) => {
   storage.set(key, value);
 };
 
-export default setItem;
+export default persist;

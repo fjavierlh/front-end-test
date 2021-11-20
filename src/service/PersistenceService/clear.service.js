@@ -1,7 +1,7 @@
 import storage from '../../infrastructure/storage/storage';
 
-const clearStorage = () => {
+const clear = () => {
   storage.clear();
 };
 
-export default clearStorage;
+export default clear;
