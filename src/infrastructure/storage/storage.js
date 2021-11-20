@@ -1,6 +1,18 @@
 const storage = {
   get: (key) => {
-    return localStorage.getItem(key);
+    const storedItem = localStorage.getItem(key);
+
+    if (!storedItem) return null;
+
+    const item = JSON.parse(storedItem);
+    const now = new Date();
+
+    if(now.getDate() > item.expires) {
+      localStorage.removeItem(key);
+      return null;
+    }
+
+    return item.value;
   },
 
   set: (key, value) => {
@@ -10,7 +22,7 @@ const storage = {
       value,
       expires: now.getTime() + 60 * 60 * 1000,
     };
-    localStorage.setItem(key, item);
+    localStorage.setItem(key, JSON.stringify(item));
   },
 
   remove: (key) => {
