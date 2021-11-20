@@ -1,4 +1,4 @@
-import axios from './../config/axios.config';
+import axios from '../../config/axios.config';
 import handleError from './handleError';
 
 const apiClient = {

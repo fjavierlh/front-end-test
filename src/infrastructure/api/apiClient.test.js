@@ -1,5 +1,5 @@
-import { allProducts } from '../../fixtures/allProducts.fixture';
-import { singleProduct } from '../../fixtures/singleProduct.fixture';
+import { allProducts } from '../../../fixtures/allProducts.fixture';
+import { singleProduct } from '../../../fixtures/singleProduct.fixture';
 import apiClient from './apiClient';
 
 describe('apiClient', () => {

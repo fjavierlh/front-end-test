@@ -1,4 +1,4 @@
-import apiClient from '../api/apiClient';
+import apiClient from '../infrastructure/api/apiClient';
 
 const getProduct = async (product) => apiClient.postProductToCart(product);
 
