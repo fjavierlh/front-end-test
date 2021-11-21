@@ -1,11 +1,11 @@
-import getProduct from './getProduct.service';
-import getProducts from './getProducts.service';
-import addToCart from './addToCart.service'
+import getProductDetail from './getProductDetail.service';
+import getAllProducts from './getAllProducts.service';
+import addProductToCart from './addProductToCart.service';
 
 const ProductService = {
-  getProducts: getProducts,
-  getProduct: getProduct,
-  addToCart: addToCart,
+  getAllProducts: getAllProducts,
+  getProductDetail: getProductDetail,
+  addProductToCart: addProductToCart,
 };
 
 export default ProductService;

@@ -4,7 +4,7 @@ import apiClient from './apiClient';
 
 describe('apiClient', () => {
   test('should return an object with all items', async () => {
-    const { data: products } = await apiClient.getProducts();
+    const { data: products } = await apiClient.getAllProducts();
     expect(products).toMatchObject(allProducts);
   });
 

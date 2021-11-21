@@ -2,7 +2,7 @@ import axios from '../../config/axios.config';
 import handleError from './handleError';
 
 const apiClient = {
-  getProducts: async () =>
+  getAllProducts: async () =>
     await axios.get('/product').catch(handleError),
 
   getProduct: async (id) =>
