@@ -1,15 +1,11 @@
 import axios from '../../config/axios.config';
-import handleError from './handleError';
 
 const apiClient = {
-  getAllProducts: async () =>
-    await axios.get('/product').catch(handleError),
+  getAllProducts: async () => await axios.get('/product'),
 
-  getProduct: async (id) =>
-    await axios.get(`/product/${id}`).catch(handleError),
+  getProduct: async (id) => await axios.get(`/product/${id}`),
 
-  postProductToCart: async (product) =>
-    await axios.post('/cart', product).catch(handleError),
+  postProductToCart: async (product) => await axios.post('/cart', product),
 };
 
 export default apiClient;
