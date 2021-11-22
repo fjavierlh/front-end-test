@@ -7,7 +7,7 @@ const storage = {
     const item = JSON.parse(storedItem);
     const now = new Date();
 
-    if(now.getDate() > item.expires) {
+    if (now.getTime() > item.expires) {
       localStorage.removeItem(key);
       return null;
     }
@@ -20,7 +20,7 @@ const storage = {
 
     const item = {
       value,
-      expires: now.getTime() + 60 * 60 * 1000,
+      expires: now.getTime() + 60 * 60 * 1000, // minutes * seconds * milliseconds (1h)
     };
     localStorage.setItem(key, JSON.stringify(item));
   },
