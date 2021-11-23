@@ -3,63 +3,31 @@ import PersiscenteKeys from '../constants/PersintenceKeys';
 import PersistenceService from '../service/PersistenceService';
 import ProductService from '../service/ProductService';
 
-const useAddProductToCart = ({ id, colorCode, storageCode }) => {
+const useAddProductToCart = () => {
+  const [cartCount, setCartCount] = useState(0);
+  console.log(`cartCount`, cartCount);
 
-  const [cartState, setCartState] = useState({
-    cart: [],
-    count: 0,
-    loading: true,
-    error: false,
-    success: false,
-  });
+  const addProductToCart = async ({ id, colorCode, storageCode }) => {
+    const { data: cart } = await ProductService.addProductToCart({
+      id,
+      colorCode,
+      storageCode,
+    });
+
+    if (cart.count) {
+      setCartCount((count) => count + 1);
+      PersistenceService.persist(PersiscenteKeys.CART, cartCount);
+    }
+  };
 
   useEffect(() => {
-    const loadCart = async () => {
-      try {
-        const storedCart = PersistenceService.get(PersiscenteKeys.CART);
-        if (storedCart) {
-          setCartState((prevState) => ({
-            cart: [...prevState.cart, { id, colorCode, storageCode }],
-            count: storedCart.count,
-            loading: false,
-            error: false,
-            success: true,
-          }));
-          return;
-        }
-        const { data: cart } = await ProductService.addProductToCart({
-          id,
-          colorCode,
-          storageCode,
-        });
-        setCartState((prevState) => ({
-          cart: [...prevState.cart, { id, colorCode, storageCode }],
-          count: cart.count,
-        }));
-        PersistenceService.persist(PersiscenteKeys.CART, cart);
-      } catch (error) {
-        setCartState((prevState) =>
-          !prevState.cart
-            ? {
-                ...prevState,
-                loading: false,
-                success: true,
-                error: false,
-              }
-            : {
-                cart: [],
-                count: 0,
-                loading: false,
-                error: true,
-                success: false,
-              }
-        );
-      }
-    };
-    loadCart();
-  }, [id, colorCode, storageCode]);
+    const storedCartCount = PersistenceService.get(PersiscenteKeys.CART);
+    if (storedCartCount) {
+      setCartCount(storedCartCount);
+    }
+  }, []);
 
-  return {...cartState};
+  return { cartCount, addProductToCart };
 };
 
 export default useAddProductToCart;
