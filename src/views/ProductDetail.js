@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { useLocation } from 'react-router-dom';
+import styled from 'styled-components';
 import useFetchSingleProduct from '../hooks/useFetchSingleProduct.hook';
 
 export const ProductDetailView = ({ onAddToCart }) => {
@@ -40,36 +41,72 @@ export const ProductDetailView = ({ onAddToCart }) => {
     imgUrl,
     brand,
     model,
+    dimensions,
+    weight,
+    displayType,
+    displayResolution,
+    displaySize,
+    os,
+    cpu,
+    chipset,
+    externalMemory,
+    internalMemory,
+    ram,
+    primaryCamera,
+    secondaryCamera,
+    nfc,
+    usb,
     options: { colors, storages },
   } = { ...product };
   return (
-    <div key={id}>
+    <ProductDetailStyled key={id}>
       <div>
         <h2>
           {brand} {model}
         </h2>
         <img src={imgUrl} alt={`${brand}-${model}`} />
       </div>
-      <div>Description:</div>
+      <article className="description">
+        <div>Description:</div>
+        {dimensions && <p>Dimensions: {dimensions}</p>}
+        {weight && <p>Weight: {weight}</p>}
+        {displayType && <p>Display Type: {displayType}</p>}
+        {displayResolution && <p>Display Resolution: {displayResolution}</p>}
+        {displaySize && <p>Display Size: {displaySize}</p>}
+        {os && <p>OS: {os}</p>}
+        {cpu && <p>CPU: {cpu}</p>}
+        {chipset && <p>Chipset: {chipset}</p>}
+        {externalMemory && <p>External Memory: {externalMemory}</p>}
+        {internalMemory && <p>Internal Memory: {internalMemory}</p>}
+        {ram && <p>RAM: {ram}</p>}
+        {primaryCamera && <p>Primary Camera: {primaryCamera}</p>}
+        {secondaryCamera && <p>Secondary Camera: {secondaryCamera}</p>}
+        {nfc && <p>NFC: {nfc}</p>}
+        {usb && <p>USB: {usb}</p>}
+      </article>
       <div>
         Options:
         <form onSubmit={onSubmit}>
           <select onChange={onChangeColor}>
-            <option disabled selected>
+            <option key={`${id}-colors`} disabled selected>
               Colors
             </option>
             {colors &&
               colors.map(({ name, code }) => (
-                <option value={code}>{name}</option>
+                <option key={`${id}-${code}`} value={code}>
+                  {name}
+                </option>
               ))}
           </select>
           <select onChange={onChangeStorage}>
-            <option disabled selected>
+            <option key={`${id}-storages`} disabled selected>
               Storages
             </option>
             {storages &&
               storages.map(({ name, code }) => (
-                <option value={code}>{name}</option>
+                <option key={`${id}-${code}`} value={code}>
+                  {name}
+                </option>
               ))}
           </select>
           {}
@@ -78,6 +115,14 @@ export const ProductDetailView = ({ onAddToCart }) => {
           </button>
         </form>
       </div>
-    </div>
+    </ProductDetailStyled>
   );
 };
+
+const ProductDetailStyled = styled.div`
+  display: flex;
+
+  & > .descrption {
+    flex: 1 0 100%;
+  }
+`;
