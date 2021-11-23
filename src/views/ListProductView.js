@@ -1,29 +1,52 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import styled from 'styled-components';
+import { SearchBar } from '../components/SearchBar';
 
 export const ListProductViewRaw = ({ products, loadState }) => {
   const { loading, error, success } = loadState;
+  const [search, setSearch] = useState('');
+  const [filteredProducts, setFilteredProducts] = useState(products);
+
+  useEffect(() => {
+    setFilteredProducts(
+      products.filter((product) =>
+        search
+          ? product.brand.toLocaleLowerCase().includes(search) ||
+            product.model.toLocaleLowerCase().includes(search)
+          : product
+      )
+    );
+  }, [products, search]);
+
   return (
-    <ListProductViewStyled>
-      {loading && <p>Loading...</p>}
-      {error && <p>Shomething was wrong... :(</p>}
-      {success &&
-        products.map(({ id, imgUrl, brand, model, price }) => (
-          <Link
-            className="item"
-            to={`/product/${model}`.toLocaleLowerCase().replaceAll(' ', '-')}
-            key={id}
-            state={{ id, imgUrl, brand, model }}
-          >
-            <img className="img-item" src={imgUrl} alt={`${brand}-${model}`} />
-            <h5>
-              {brand}-{model}
-            </h5>
-            <b>{price}€</b>
-          </Link>
-        ))}
-    </ListProductViewStyled>
+    <>
+      <SearchBar onSearch={setSearch} />
+      <ListProductViewStyled>
+        {loading && <p>Loading...</p>}
+        {error && <p>Shomething was wrong... :(</p>}
+        {success &&
+          filteredProducts.map(({ id, imgUrl, brand, model, price }) => (
+            <Link
+              className="item"
+              to={`/product/${model}`.toLowerCase().replaceAll(' ', '-')}
+              key={id}
+              state={{ id, imgUrl, brand, model }}
+            >
+              <img
+                className="img-item"
+                src={imgUrl}
+                alt={`${brand}-${model}`}
+              />
+              <p>
+                <b>{brand}</b> {model}
+              </p>
+              <b>{price}€</b>
+            </Link>
+          ))}
+        {filteredProducts.length === 0 && <p>No products found</p>}
+      </ListProductViewStyled>
+    </>
   );
 };
 
