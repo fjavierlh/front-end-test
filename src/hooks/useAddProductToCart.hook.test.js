@@ -24,12 +24,8 @@ describe('useFetchProduct', () => {
       Promise.resolve(singleProduct)
     );
 
-    const { cart, count, loading, error, success } = result.current;
-    expect(cart).toEqual([]);
-    expect(count).toEqual(0);
-    expect(loading).toEqual(true);
-    expect(error).toEqual(false);
-    expect(success).toEqual(false);
+    const { cartCount } = result.current;
+    expect(cartCount).toEqual(0);
   });
 
   // TODO
