@@ -24,14 +24,16 @@ const useFetchSingleProduct = (id) => {
           });
           return;
         }
-        const { data: product } = await ProductService.getProductDetail(id);
+        const { data: productFromAPI } = await ProductService.getProductDetail(
+          id
+        );
         setProductState({
-          product,
+          product: productFromAPI,
           loading: false,
           success: true,
           error: false,
         });
-        PersistenceService.persist(id, product);
+        PersistenceService.persist(id, productFromAPI);
       } catch (error) {
         console.log(`error`, error);
         setProductState((prevState) =>

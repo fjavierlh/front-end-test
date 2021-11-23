@@ -3,7 +3,7 @@ import PersiscenteKeys from '../constants/PersintenceKeys';
 import PersistenceService from '../service/PersistenceService';
 import ProductService from '../service/ProductService';
 
-export const useFetchAllProducts = () => {
+const useFetchAllProducts = () => {
   const [productsState, setProductsState] = useState({
     products: [],
     loading: true,
@@ -24,14 +24,14 @@ export const useFetchAllProducts = () => {
           });
           return;
         }
-        const { data: products } = await ProductService.getAllProducts();
+        const { data: productsFromAPI } = await ProductService.getAllProducts();
         setProductsState({
-          ...products,
+          products: productsFromAPI,
           loading: false,
           success: true,
           error: false,
         });
-        PersistenceService.persist(PersiscenteKeys.PRODUCTS, products);
+        PersistenceService.persist(PersiscenteKeys.PRODUCTS, productsFromAPI);
       } catch (error) {
         setProductsState((prevState) =>
           !prevState.products
@@ -47,7 +47,9 @@ export const useFetchAllProducts = () => {
     };
 
     loadProducts();
-  }, [productsState]);
+  }, []);
 
   return productsState;
 };
+
+export default useFetchAllProducts;
