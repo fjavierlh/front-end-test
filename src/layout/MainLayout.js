@@ -18,7 +18,6 @@ export const MainLayout = ({ cartCount }) => {
 const MainLayoutStyled = styled.div`
   display: flex;
   flex-direction: column;
-  background-color: #efefef;
   max-width: ${breakpoints.size.lg};
   margin: 0 auto;
   padding: 1rem;
