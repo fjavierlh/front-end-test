@@ -4,6 +4,7 @@ import styled from 'styled-components';
 import { Actions } from '../components/Actions';
 import { Description } from '../components/Description';
 import { Image } from '../components/Image';
+import breakpoints from '../constants/devices-sizes';
 import useFetchSingleProduct from '../hooks/useFetchSingleProduct.hook';
 
 export const ProductDetailView = ({ onAddToCart }) => {
@@ -43,34 +44,49 @@ export const ProductDetailView = ({ onAddToCart }) => {
   const { imgUrl, brand, model, options } = { ...product };
   return (
     <ProductDetailStyled key={id}>
-      <h2>
+      <h2 className="product-name">
         {brand} {model}
       </h2>
       <Image imgUrl={imgUrl} altText={`${brand}-${model}`} />
-      <Description product={product} />
-      <Actions
-        id={id}
-        onSubmit={onSubmit}
-        onChangeColor={onChangeColor}
-        onChangeStorage={onChangeStorage}
-        options={options}
-        userOptions={userOptions}
-      />
+      <div className="product-right-box">
+        <Description product={product} />
+        <Actions
+          id={id}
+          onSubmit={onSubmit}
+          onChangeColor={onChangeColor}
+          onChangeStorage={onChangeStorage}
+          options={options}
+          userOptions={userOptions}
+        />
+      </div>
     </ProductDetailStyled>
   );
 };
 
 const ProductDetailStyled = styled.div`
   display: flex;
-  flex-direction: column;
+  justify-content: space-evenly;
   flex-wrap: wrap;
   align-items: center;
 
-  & > h2 {
-    flex: 1;
+  & > .product-name {
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    flex-basis: 100%;
   }
 
-  & > Image {
-    border: 1px solid red;
+  & > .product-right-box {
+    flex-basis: 60%;
+  }
+
+  @media only screen and (${breakpoints.device.xs}) {
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+  @media only screen and (${breakpoints.device.sm}) {
+  }
+  @media only screen and (${breakpoints.device.lg}) {
+    flex-direction: row;
   }
 `;
