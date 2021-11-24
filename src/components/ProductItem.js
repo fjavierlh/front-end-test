@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import styled from 'styled-components';
 import { Image } from './Image';
 
-export const ProductItem = ({ id, imgUrl, brand, model, price }) => {
+const ProductItem = ({ id, imgUrl, brand, model, price }) => {
   return (
     <ProductItemStyled>
       <Link
@@ -64,3 +64,5 @@ const ProductItemStyled = styled.article`
     justify-content: flex-end;
   }
 `;
+
+export default ProductItem;
