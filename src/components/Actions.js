@@ -13,7 +13,6 @@ export const Actions = ({
   const { colors, storages } = options;
   return (
     <ActionsStyled>
-      <h3>Options</h3>
       <form onSubmit={onSubmit}>
         <select onChange={onChangeColor}>
           <option key={`${id}-colors`} disabled selected>
@@ -44,18 +43,27 @@ export const Actions = ({
 };
 
 const ActionsStyled = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  & > h3 {
+    flex-basis: 100%;
+  }
   & > form {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    margin-top: 3rem;
   }
   & > form > select {
     font-size: 1.2rem;
     display: block;
     width: 320px;
-    border: none;
+    border: 1px solid #ccc;
+    border-radius: 5px;
     background-color: #fff;
-    margin: 1rem auto;
+    margin: 0 auto 1rem auto;
     padding: 0.5rem;
   }
 `;
