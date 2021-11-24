@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import PersiscenteKeys from '../constants/PersintenceKeys';
-import PersistenceService from '../service/PersistenceService';
-import ProductService from '../service/ProductService';
+import PersistenceService from '../services/PersistenceService';
+import ProductService from '../services/ProductService';
 
 const useAddProductToCart = () => {
   const [cartCount, setCartCount] = useState(0);

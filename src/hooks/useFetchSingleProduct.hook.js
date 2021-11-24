@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
-import PersistenceService from '../service/PersistenceService';
-import ProductService from '../service/ProductService';
+import PersistenceService from '../services/PersistenceService';
+import ProductService from '../services/ProductService';
 
 const useFetchSingleProduct = (id) => {
   const [productState, setProductState] = useState({

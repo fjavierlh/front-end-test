@@ -1,8 +1,8 @@
 import { renderHook } from '@testing-library/react-hooks';
 import { allProducts } from '../../fixtures/allProducts.fixture';
 import { singleProduct } from '../../fixtures/singleProduct.fixture';
-import PersistenceService from '../service/PersistenceService';
-import ProductService from '../service/ProductService';
+import PersistenceService from '../services/PersistenceService';
+import ProductService from '../services/ProductService';
 import useAddProductToCart from './useAddProductToCart.hook';
 
 jest.mock('../service/ProductService');
