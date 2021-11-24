@@ -12,8 +12,10 @@ export const Header = ({ logoUrl, title, cartCount }) => {
           <h4>{title}</h4>
         )}
       </Link>
-
-      <div className="cart-count">{cartCount}</div>
+      <div className="cart">
+        <p>Items in your cart</p>
+        <div className="cart-count">{cartCount}</div>
+      </div>
     </HeaderStyled>
   );
 };
@@ -30,15 +32,26 @@ const HeaderStyled = styled.header`
     text-decoration: none;
     color: #333;
   }
-  & > .cart-count {
+  & > .cart {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5em;
+    text-transform: uppercase;
+    align-items: center;
+    font-size: 0.9em;
+    font-weight: bold;
+  }
+  & > .cart > .cart-count {
     display: flex;
     margin-right: 1rem;
     justify-content: center;
     align-items: center;
     background-color: #333;
     color: #fff;
-    height: 2.5rem;
-    width: 2.5rem;
+    height: 1.5rem;
+    width: 1.5rem;
+    font-weight: bold;
+    font-size: 0.8rem;
     border-radius: 100%;
   }
 `;
