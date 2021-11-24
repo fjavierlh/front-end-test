@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from 'react';
-import { Link } from 'react-router-dom';
 import styled from 'styled-components';
+import { ProductItem } from '../components/ProductItem';
 import { SearchBar } from '../components/SearchBar';
 
-export const ListProductViewRaw = ({ products, loadState }) => {
+export const ListProductViewRaw = ({ products = [], loadState }) => {
   const { loading, error, success } = loadState;
   const [search, setSearch] = useState('');
   const [filteredProducts, setFilteredProducts] = useState(products);
@@ -21,28 +21,22 @@ export const ListProductViewRaw = ({ products, loadState }) => {
 
   return (
     <>
-      <SearchBar onSearch={setSearch} />
       <ListProductViewStyled>
+        <SearchBar
+          onSearch={setSearch}
+        />
         {loading && <p>Loading...</p>}
         {error && <p>Shomething was wrong... :(</p>}
         {success &&
           filteredProducts.map(({ id, imgUrl, brand, model, price }) => (
-            <Link
-              className="item"
-              to={`/product/${model}`.toLowerCase().replaceAll(' ', '-')}
+            <ProductItem
               key={id}
-              state={{ id, imgUrl, brand, model }}
-            >
-              <img
-                className="img-item"
-                src={imgUrl}
-                alt={`${brand}-${model}`}
-              />
-              <p>
-                <b>{brand}</b> {model}
-              </p>
-              <b>{price}€</b>
-            </Link>
+              id={id}
+              imgUrl={imgUrl}
+              brand={brand}
+              model={model}
+              price={price}
+            />
           ))}
         {filteredProducts.length === 0 && <p>No products found</p>}
       </ListProductViewStyled>
@@ -53,23 +47,10 @@ export const ListProductViewRaw = ({ products, loadState }) => {
 const ListProductViewStyled = styled.div`
   margin: 0 auto;
   display: flex;
+  gap: 1.5em;
   flex-wrap: wrap;
   justify-content: space-around;
-  align-items: center;
-  & > .item {
-    flex: 1 0 21%;
-    text-align: center;
-    background-color: #fff;
-    padding: 2rem 0 2rem 0;
-    text-decoration: none;
-    color: #333;
-
-    & > .img-item {
-      display: block;
-      max-height: 180px;
-      margin: 0 auto;
-    }
-  }
+  align-items: flex-start;
 `;
 
 export default ListProductViewRaw;
