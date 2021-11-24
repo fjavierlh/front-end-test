@@ -5,7 +5,6 @@ import ProductService from '../service/ProductService';
 
 const useAddProductToCart = () => {
   const [cartCount, setCartCount] = useState(0);
-  console.log(`cartCount`, cartCount);
 
   const addProductToCart = async ({ id, colorCode, storageCode }) => {
     const { data: cart } = await ProductService.addProductToCart({

@@ -35,7 +35,6 @@ const useFetchSingleProduct = (id) => {
         });
         PersistenceService.persist(id, productFromAPI);
       } catch (error) {
-        console.log(`error`, error);
         setProductState((prevState) =>
           !prevState.product
             ? {
