@@ -3,7 +3,7 @@ import styled from 'styled-components';
 import ProductItem from '../components/ProductItem';
 import SearchBar from '../components/SearchBar';
 
-export const ListProductViewRaw = ({ products = [], loadState }) => {
+export const ListProductView = ({ products = [], loadState }) => {
   const { loading, error, success } = loadState;
   const [search, setSearch] = useState('');
   const [filteredProducts, setFilteredProducts] = useState(products);
@@ -57,4 +57,4 @@ const ListProductViewStyled = styled.div`
   align-items: flex-start;
 `;
 
-export default ListProductViewRaw;
+export default ListProductView;

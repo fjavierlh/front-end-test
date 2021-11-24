@@ -3,9 +3,9 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import useAddProductToCart from './hooks/useAddProductToCart.hook';
 import useFetchAllProducts from './hooks/useFetchAllProducts.hook';
 import MainLayout from './layout/MainLayout';
-import ListProductViewRaw from './views/ListProductView';
+import ListProductView from './views/ListProductView';
 import { PageNotFoundView } from './views/PageNotFoundView';
-import { ProductDetailView } from './views/ProductDetail';
+import { ProductDetailView } from './views/ProductDetailView';
 
 const App = () => {
   const { products, ...loadStateProducts } = useFetchAllProducts();
@@ -17,7 +17,7 @@ const App = () => {
           <Route
             index
             element={
-              <ListProductViewRaw
+              <ListProductView
                 products={products}
                 loadState={loadStateProducts}
               />
