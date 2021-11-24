@@ -4,7 +4,31 @@ A simple app made with React, that allows view a mobile devices collection, add 
 
 ## Project details
 
-TODO
+### Project structure
+
+```
+src
+├── components
+├── config
+├── constants
+├── hooks
+├── infrastructure
+│   ├── api
+│   └── storage
+├── layout
+├── services
+│   ├── PersistenceService
+│   └── ProductService
+└── views
+```
+
+### Used libraries
+
+- `axios` to made API Rest calls
+- `normalize.css` to normalize css for browsers
+- `react-autocomplete-hint` to search autocompletion
+- `react-router-dom` to create app routing
+- `styled-components` to apply style to components
 
 ## Available Scripts
 
@@ -32,4 +56,3 @@ The build is minified and the filenames include the hashes.\
 Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
