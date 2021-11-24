@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import styled from 'styled-components';
-import { ProductItem } from '../components/ProductItem';
-import { SearchBar } from '../components/SearchBar';
+import ProductItem from '../components/ProductItem';
+import SearchBar from '../components/SearchBar';
 
 export const ListProductViewRaw = ({ products = [], loadState }) => {
   const { loading, error, success } = loadState;
@@ -22,9 +22,7 @@ export const ListProductViewRaw = ({ products = [], loadState }) => {
   return (
     <>
       <ListProductViewStyled>
-        <SearchBar
-          onSearch={setSearch}
-        />
+        <SearchBar onSearch={setSearch} products={products} />
         {loading && <p>Loading...</p>}
         {error && <p>Shomething was wrong... :(</p>}
         {success &&
