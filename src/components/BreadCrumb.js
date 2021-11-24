@@ -5,7 +5,6 @@ import styled from 'styled-components';
 export const BreadCrumb = () => {
   const location = useLocation();
   const state = location.state;
-  console.log(`state`, state);
 
   if (state === null) {
     return (
@@ -24,7 +23,9 @@ export const BreadCrumb = () => {
       </Link>
       <span className="separator">⯈</span>
       <span>
-        <b>{state.model}</b>
+        <b>
+          {state.brand} {state.model}
+        </b>
       </span>
     </BreadCrumbStyled>
   );
