@@ -25,7 +25,6 @@ export const Description = ({ product }) => {
   } = { ...product };
   return (
     <DescriptionStyled>
-      <h4>Product description</h4>
       <div className="description">
         <dl className="description-left">
           {brand && (
@@ -165,11 +164,6 @@ const DescriptionStyled = styled.article`
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  h4 {
-    flex-basis: 100%;
-    font-size: 1.5rem;
-    margin-bottom: 1rem;
-  }
 
   dl {
     margin: 0;
@@ -201,6 +195,8 @@ const DescriptionStyled = styled.article`
 
   & > .description {
     display: flex;
+    gap: 1.5em;
+
     justify-content: space-evenly;
   }
 `;
