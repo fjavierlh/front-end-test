@@ -1,6 +1,6 @@
 # front-end-test 📱🛒
 
-A simple app made with React, that allows view a mobile devices collection, add it to shoping cart and buy them.
+A simple app made with React, that allows view a mobile devices collection and add it to shoping cart.
 
 ## Project details
 
