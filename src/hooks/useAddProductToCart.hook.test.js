@@ -5,8 +5,8 @@ import PersistenceService from '../services/PersistenceService';
 import ProductService from '../services/ProductService';
 import useAddProductToCart from './useAddProductToCart.hook';
 
-jest.mock('../service/ProductService');
-jest.mock('../service/PersistenceService');
+jest.mock('../services/ProductService');
+jest.mock('../services/PersistenceService');
 
 describe('useFetchProduct', () => {
   test('should return initial state', async () => {

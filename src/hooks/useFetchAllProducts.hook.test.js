@@ -1,14 +1,13 @@
 import { renderHook } from '@testing-library/react-hooks';
 import { allProducts } from '../../fixtures/allProducts.fixture';
-import PersistenceService from '../service/PersistenceService';
-import ProductService from '../service/ProductService';
-import { useFetchAllProducts } from './useFetchAllProducts.hook';
+import PersistenceService from '../services/PersistenceService';
+import ProductService from '../services/ProductService';
+import useFetchAllProducts from './useFetchAllProducts.hook';
 
-jest.mock('../service/ProductService');
-jest.mock('../service/PersistenceService');
+jest.mock('../services/ProductService');
+jest.mock('../services/PersistenceService');
 
 describe('useFetchProducts', () => {
-
   test('should return initial state', async () => {
     const { result } = renderHook(() => useFetchAllProducts());
 
