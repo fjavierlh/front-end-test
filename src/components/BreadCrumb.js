@@ -1,8 +1,9 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
 import styled from 'styled-components';
 
-export const BreadCrumb = ({ location }) => {
+export const BreadCrumb = () => {
+  const location = useLocation();
   const state = location.state;
   console.log(`state`, state);
 
