@@ -47,7 +47,7 @@ const SearchBarStyled = styled.div`
   & * input {
     width: 100%;
     padding: 0.5em;
-    border: none;
+    border: 1px solid #ccc;
     font-size: 1.5rem;
     border-radius: 5px;
     &::placeholder {
