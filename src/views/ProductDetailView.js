@@ -67,7 +67,11 @@ const ProductDetailStyled = styled.div`
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
-  align-items: center;
+  align-items: flex-start;
+
+  & > img {
+    margin: 3.5rem auto;
+  }
 
   & > .product-name {
     margin-bottom: 1rem;
@@ -78,11 +82,12 @@ const ProductDetailStyled = styled.div`
 
   & > .product-right-box {
     flex-basis: 60%;
+    margin: 0 auto;
   }
 
   @media only screen and (${breakpoints.device.xs}) {
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: center;
   }
   @media only screen and (${breakpoints.device.sm}) {
   }
