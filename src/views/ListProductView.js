@@ -12,8 +12,14 @@ export const ListProductViewRaw = ({ products = [], loadState }) => {
     setFilteredProducts(
       products.filter((product) =>
         search
-          ? product.brand.toLocaleLowerCase().includes(search) ||
-            product.model.toLocaleLowerCase().includes(search)
+          ? `${product.brand} ${product.model}`
+              .toLocaleLowerCase()
+              .includes(search) ||
+            `${product.model} ${product.brand}`
+              .toLocaleLowerCase()
+              .includes(search) ||
+            product.model.toLocaleLowerCase().includes(search) ||
+            product.brand.toLocaleLowerCase().includes(search)
           : product
       )
     );

@@ -8,10 +8,18 @@ const SearchBar = ({ onSearch, products }) => {
   const [autocompleteSuggestions, setAutocompleteSuggestions] = useState([]);
 
   useEffect(() => {
-    const suggestions =
+    const suggestionsRaw =
       products.length !== 0
-        ? products.map(({ brand, model }) => `${brand} ${model}`)
+        ? products
+            .map(({ brand, model }) => [
+              `${brand} ${model}`,
+              `${model} ${brand}`,
+              `${brand}`,
+              `${model}`,
+            ])
+            .reduce((acc, curr) => acc.concat(curr))
         : [];
+    const suggestions = [...new Set(suggestionsRaw)];
     setAutocompleteSuggestions(suggestions);
   }, [products]);
 
@@ -21,13 +29,9 @@ const SearchBar = ({ onSearch, products }) => {
     onSearch(value.toLowerCase());
   };
 
-  // useEffect(() => {
-  //   onSearch(value.toLowerCase());
-  // }, [value]);
-
   return (
     <SearchBarStyled>
-      <Hint className="hint" options={autocompleteSuggestions}>
+      <Hint className="hint" options={autocompleteSuggestions} allowTabFill>
         <input
           type="text"
           placeholder="Search model or brand..."
