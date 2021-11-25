@@ -1,10 +1,25 @@
-import { render, screen } from '@testing-library/react';
+import { act, render, screen } from '@testing-library/react';
+import userEvent from '@testing-library/user-event';
 import App from './App';
 
 describe('App', () => {
-  test('should show "mobile devices shop" text on render', () => {
+  test('should render App component', () => {
     render(<App />);
-    const linkElement = screen.getByText(/mobile devices shop/i);
-    expect(linkElement).toBeInTheDocument();
+    const brandText = screen.getByText(/mobile devices shop/i);
+    expect(brandText).toBeInTheDocument();
+  });
+
+  test('should render App component with search bar', () => {
+    render(<App />);
+
+    const searchInput = screen.getByPlaceholderText(/search model or brand/i);
+    expect(searchInput).toBeInTheDocument();
+
+    act(() => {
+      userEvent.click(searchInput);
+    });
+
+    expect(searchInput).toHaveFocus();
+    expect(searchInput).toHaveValue('');
   });
 });
