@@ -41,7 +41,7 @@ export const ListProductView = ({ products = [], loadState }) => {
             price={price}
           />
         ))}
-      {filteredProducts.length === 0 && !error && <p>No products found</p>}
+      {success && filteredProducts.length === 0 && <p>No products found</p>}
     </ListProductViewStyled>
   );
 };
