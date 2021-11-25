@@ -1,9 +1,11 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 export const PageNotFoundView = () => {
   return (
     <div>
-      <h2>Page not found</h2>
+      <h1>Page not found :(</h1>
+      <Link to="/">Go to home page</Link>
     </div>
   );
 };
