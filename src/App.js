@@ -8,7 +8,6 @@ import { PageNotFoundView } from './views/PageNotFoundView';
 import { ProductDetailView } from './views/ProductDetailView';
 
 const App = () => {
-  const { products, ...loadStateProducts } = useFetchAllProducts();
   const { cartCount, addProductToCart } = useAddProductToCart();
   return (
     <BrowserRouter>
@@ -18,8 +17,6 @@ const App = () => {
             index
             element={
               <ListProductView
-                products={products}
-                loadState={loadStateProducts}
               />
             }
           />
