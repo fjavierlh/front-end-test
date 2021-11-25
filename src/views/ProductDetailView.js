@@ -9,15 +9,12 @@ import useFetchSingleProduct from '../hooks/useFetchSingleProduct.hook';
 
 export const ProductDetailView = ({ onAddToCart }) => {
   const location = useLocation();
-  const id = location.state.id;
+  const { id } = location.state;
 
   const defaultOptions = { id, colorCode: null, storageCode: null };
-
   const [userOptions, setUserOptions] = useState(defaultOptions);
 
-  const { product, ...loadStateProduct } = useFetchSingleProduct(
-    location.state.id
-  );
+  const { product, ...loadStateProduct } = useFetchSingleProduct(id);
 
   const onSubmit = async (e) => {
     e.preventDefault();
@@ -28,6 +25,7 @@ export const ProductDetailView = ({ onAddToCart }) => {
     const colorCode = parseInt(e.target.value);
     setUserOptions({ ...userOptions, colorCode });
   };
+
   const onChangeStorage = (e) => {
     const storageCode = parseInt(e.target.value);
     setUserOptions({ ...userOptions, storageCode });
@@ -37,7 +35,7 @@ export const ProductDetailView = ({ onAddToCart }) => {
     return <p>Loading...</p>;
   }
 
-  if (loadStateProduct.error) {
+  if (loadStateProduct.error || !product) {
     return <p>Shomething was wrong... :(</p>;
   }
 
