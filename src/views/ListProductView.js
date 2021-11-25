@@ -26,25 +26,23 @@ export const ListProductView = ({ products = [], loadState }) => {
   }, [products, search]);
 
   return (
-    <>
-      <ListProductViewStyled>
-        <SearchBar onSearch={setSearch} products={products} />
-        {loading && <p>Loading...</p>}
-        {error && <p>Shomething was wrong... :(</p>}
-        {success &&
-          filteredProducts.map(({ id, imgUrl, brand, model, price }) => (
-            <ProductItem
-              key={id}
-              id={id}
-              imgUrl={imgUrl}
-              brand={brand}
-              model={model}
-              price={price}
-            />
-          ))}
-        {filteredProducts.length === 0 && <p>No products found</p>}
-      </ListProductViewStyled>
-    </>
+    <ListProductViewStyled>
+      <SearchBar onSearch={setSearch} products={products} />
+      {loading && <p>Loading...</p>}
+      {error && <p>Shomething was wrong... :(</p>}
+      {success &&
+        filteredProducts.map(({ id, imgUrl, brand, model, price }) => (
+          <ProductItem
+            key={id}
+            id={id}
+            imgUrl={imgUrl}
+            brand={brand}
+            model={model}
+            price={price}
+          />
+        ))}
+      {filteredProducts.length === 0 && !error && <p>No products found</p>}
+    </ListProductViewStyled>
   );
 };
 
