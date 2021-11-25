@@ -1,27 +1,12 @@
-import React, { useEffect, useState } from 'react';
+import React, { useState } from 'react';
 import { Hint } from 'react-autocomplete-hint';
 import styled from 'styled-components';
 import breakpoints from '../constants/devices-sizes';
+import useSetAutocompleteKeywords from '../hooks/useSetAutocompleKeywords.hook';
 
 const SearchBar = ({ onSearch, products }) => {
+  const { autocompleteSuggestions } = useSetAutocompleteKeywords(products);
   const [value, setValue] = useState('');
-  const [autocompleteSuggestions, setAutocompleteSuggestions] = useState([]);
-
-  useEffect(() => {
-    const suggestionsRaw =
-      products.length !== 0
-        ? products
-            .map(({ brand, model }) => [
-              `${brand} ${model}`,
-              `${model} ${brand}`,
-              `${brand}`,
-              `${model}`,
-            ])
-            .reduce((acc, curr) => acc.concat(curr))
-        : [];
-    const suggestions = [...new Set(suggestionsRaw)];
-    setAutocompleteSuggestions(suggestions);
-  }, [products]);
 
   const onChange = (e) => {
     const value = e.target.value;
@@ -31,7 +16,7 @@ const SearchBar = ({ onSearch, products }) => {
 
   return (
     <SearchBarStyled>
-      <Hint className="hint" options={autocompleteSuggestions} allowTabFill>
+      <Hint options={autocompleteSuggestions} allowTabFill>
         <input
           type="text"
           placeholder="Search model or brand..."
