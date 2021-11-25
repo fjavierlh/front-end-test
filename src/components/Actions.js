@@ -54,7 +54,7 @@ const ActionsStyled = styled.div`
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-top: 3rem;
+    margin-top: 1rem;
   }
   & > form > select {
     font-size: 1.2rem;

@@ -167,20 +167,26 @@ const DescriptionStyled = styled.article`
 
   dl {
     margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+
+  dl > * {
+    flex: 45%;
+    margin: 0;
   }
 
   dt {
     text-transform: uppercase;
     font-size: 0.9em;
+    text-align: right;
     font-weight: bold;
-    margin-top: 0.5rem;
-    margin-top: 0.8rem;
   }
 
   dd > dt {
     font-size: 0.8em;
     margin-left: 2em;
-    margin-bottom: 0.5rem;
   }
   dd > dd {
     font-size: 0.8em;

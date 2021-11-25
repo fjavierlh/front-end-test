@@ -68,11 +68,11 @@ const ProductDetailStyled = styled.div`
   align-items: flex-start;
 
   & > img {
-    margin: 3.5rem auto;
+    margin: 6.5rem auto;
   }
 
   & > .product-name {
-    margin-bottom: 1rem;
+    margin-bottom: 0;
     font-size: 1.5rem;
     font-weight: bold;
     flex-basis: 100%;
