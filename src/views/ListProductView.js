@@ -7,11 +7,11 @@ import useFilterProductsSearch from '../hooks/useFilterProductsSearch.hook';
 
 export const ListProductView = () => {
   const { products, ...loadState } = useFetchAllProducts();
-  const { setSearch, searchedProducts } = useFilterProductsSearch(products);
+  const { setSearchValue, searchedProducts } = useFilterProductsSearch(products);
 
   return (
     <ListProductViewStyled>
-      <SearchBar onSearch={setSearch} products={products} />
+      <SearchBar onSearch={setSearchValue} products={products} />
       <ListProduct products={searchedProducts} loadState={loadState} />
     </ListProductViewStyled>
   );

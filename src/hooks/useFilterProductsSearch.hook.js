@@ -4,6 +4,10 @@ const useFilterProductsSearch = (products) => {
   const [search, setSearch] = useState('');
   const [searchedProducts, setSearchedProducts] = useState(products);
 
+  const setSearchValue = (value) => {
+    setSearch(value);
+  };
+
   useEffect(() => {
     setSearchedProducts(
       products.filter((product) =>
@@ -21,7 +25,7 @@ const useFilterProductsSearch = (products) => {
     );
   }, [products, search]);
 
-  return { setSearch, searchedProducts };
+  return { setSearchValue, searchedProducts };
 };
 
 export default useFilterProductsSearch;
