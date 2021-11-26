@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { useLocation } from 'react-router-dom';
 import styled from 'styled-components';
 import { Actions } from '../components/Actions';
-import { Description } from '../components/Description';
+import Description from '../components/Description';
 import { Image } from '../components/Image';
 import breakpoints from '../constants/devices-sizes';
 import useFetchSingleProduct from '../hooks/useFetchSingleProduct.hook';
