@@ -14,7 +14,7 @@ export const Header = ({ logoUrl, title, cartCount }) => {
       </Link>
       <div className="cart">
         <p>Items in your cart</p>
-        <div className="cart-count">{cartCount}</div>
+        <div className="cart-count">{cartCount || 0}</div>
       </div>
     </HeaderStyled>
   );
