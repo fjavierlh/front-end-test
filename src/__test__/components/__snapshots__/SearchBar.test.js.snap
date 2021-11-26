@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SearchBar should render SearchBar component 1`] = `
+<div>
+  <div
+    class="sc-bdvvtL fpEDfN"
+  >
+    <div
+      class="rah-input-wrapper"
+      style="position: relative;"
+    >
+      <input
+        placeholder="Search model or brand..."
+        style="box-sizing: border-box;"
+        type="text"
+        value=""
+      />
+      <span
+        class="rah-hint-wrapper"
+        style="display: flex; pointer-events: none; background-color: transparent; border-color: transparent; box-sizing: border-box; box-shadow: none; color: rgba(0, 0, 0, 0.35); position: absolute; top: 0px; left: 0px; font-family: -webkit-small-control; font-size: 1.5rem; width: 100%; line-height: normal; padding: 0.5em 0.5em 0.5em 0.5em; border-style: solid solid solid solid; border-width: 1px 1px 1px 1px;"
+      >
+        <span
+          class="rah-text-filler"
+          style="visibility: hidden; pointer-events: none; white-space: pre;"
+        />
+        <input
+          class="rah-hint"
+          style="pointer-events: none; background: transparent; width: 100%; outline: none; box-shadow: none; padding: 0px; margin: 0px; color: rgba(0, 0, 0, 0.3); caret-color: transparent; font-family: -webkit-small-control; font-size: 1.5rem; line-height: normal;"
+          tabindex="-1"
+          value=""
+        />
+      </span>
+    </div>
+  </div>
+</div>
+`;
