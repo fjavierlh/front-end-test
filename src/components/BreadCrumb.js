@@ -32,6 +32,7 @@ export const BreadCrumb = () => {
 };
 
 const BreadCrumbStyled = styled.div`
+  flex-basis: 100%;
   & > .separator {
     margin: 0 5px;
     color: #000;

@@ -8,8 +8,9 @@ import breakpoints from '../constants/devices-sizes';
 export const MainLayout = ({ cartCount }) => {
   return (
     <MainLayoutStyled>
-      <Header title="Mobile devices shop" cartCount={cartCount} />
-      <BreadCrumb />
+      <Header title="Mobile devices shop" cartCount={cartCount}>
+        <BreadCrumb />
+      </Header>
       <Outlet />
     </MainLayoutStyled>
   );

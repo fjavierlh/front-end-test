@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import styled from 'styled-components';
 
-export const Header = ({ logoUrl, title, cartCount }) => {
+export const Header = ({ logoUrl, title, cartCount, children }) => {
   return (
     <HeaderStyled>
       <Link to="/" className="brand">
@@ -16,6 +16,7 @@ export const Header = ({ logoUrl, title, cartCount }) => {
         <p>Items in your cart</p>
         <div className="cart-count">{cartCount || 0}</div>
       </div>
+      {children}
     </HeaderStyled>
   );
 };
@@ -23,7 +24,10 @@ export const Header = ({ logoUrl, title, cartCount }) => {
 const HeaderStyled = styled.header`
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 0.75em;
   align-items: center;
+  margin-bottom: 1rem;
   & > .logo {
     width: 200px;
     max-width: 200px;
