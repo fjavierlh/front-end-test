@@ -1,7 +1,6 @@
 import React from 'react';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import useAddProductToCart from './hooks/useAddProductToCart.hook';
-import useFetchAllProducts from './hooks/useFetchAllProducts.hook';
 import MainLayout from './layout/MainLayout';
 import ListProductView from './views/ListProductView';
 import { PageNotFoundView } from './views/PageNotFoundView';
@@ -13,13 +12,7 @@ const App = () => {
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<MainLayout cartCount={cartCount} />}>
-          <Route
-            index
-            element={
-              <ListProductView
-              />
-            }
-          />
+          <Route index element={<ListProductView />} />
           <Route
             path="/product/:model"
             element={<ProductDetailView onAddToCart={addProductToCart} />}
