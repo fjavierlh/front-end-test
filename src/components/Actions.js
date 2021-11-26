@@ -14,8 +14,8 @@ export const Actions = ({
   return (
     <ActionsStyled>
       <form onSubmit={onSubmit}>
-        <select onChange={onChangeColor}>
-          <option key={`${id}-colors`} disabled selected>
+        <select onChange={onChangeColor} defaultValue="index">
+          <option key={`${id}-colors`} value="index" disabled>
             Colors
           </option>
           {colors &&
@@ -25,8 +25,8 @@ export const Actions = ({
               </option>
             ))}
         </select>
-        <select onChange={onChangeStorage}>
-          <option key={`${id}-storages`} disabled selected>
+        <select onChange={onChangeStorage} defaultValue="index">
+          <option key={`${id}-storages`} value="index" disabled>
             Storages
           </option>
           {storages &&
