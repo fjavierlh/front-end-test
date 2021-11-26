@@ -3,7 +3,7 @@
 exports[`Header should match snapshot with cart count default value by props 1`] = `
 <div>
   <header
-    class="sc-bdvvtL dSIjGb"
+    class="sc-bdvvtL jQeEbq"
   >
     <a
       class="brand"
@@ -32,7 +32,7 @@ exports[`Header should match snapshot with cart count default value by props 1`]
 exports[`Header should match snapshot with cart count passed by props 1`] = `
 <div>
   <header
-    class="sc-bdvvtL dSIjGb"
+    class="sc-bdvvtL jQeEbq"
   >
     <a
       class="brand"
