@@ -1,7 +1,7 @@
-import PersistenceService from '.';
-import storage from '../../infrastructure/storage/storage';
+import PersistenceService from '../../../services/PersistenceService';
+import storage from '../../../infrastructure/storage/storage';
 
-jest.mock('../../infrastructure/storage/storage');
+jest.mock('../../../infrastructure/storage/storage');
 describe('PersistenceService', () => {
   const key = 'key';
   const value = 'value';

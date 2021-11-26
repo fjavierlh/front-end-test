@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AddToCartButton should match snapshot when button is enable 1`] = `
+<div>
+  <button
+    class="sc-bdvvtL aFQfL"
+  >
+    Add to cart
+  </button>
+</div>
+`;
+
+exports[`AddToCartButton should match with last snapshot when button is disabled 1`] = `
+<div>
+  <button
+    class="sc-bdvvtL aFQfL"
+    disabled=""
+  >
+    Add to cart
+  </button>
+</div>
+`;

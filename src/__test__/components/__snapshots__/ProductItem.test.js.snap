@@ -1,0 +1,76 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ProductItem should match snapshot ProductItem with all passed props 1`] = `
+<div>
+  <article
+    class="sc-bdvvtL kQKxTo"
+  >
+    <a
+      class="product-link"
+      href="/product/iconia-talk-s"
+    >
+      <img
+        alt="Acer-Iconia Talk S"
+        loading="lazy"
+        src="https://front-test-api.herokuapp.com/images/ZmGrkLRPXOTpxsU4jjAcv.jpg"
+      />
+      <div
+        class="product-info"
+      >
+        <p>
+          <b>
+            Acer
+          </b>
+           
+          Iconia Talk S
+        </p>
+        <span
+          class="price-text"
+        >
+          <b>
+            170
+            €
+          </b>
+        </span>
+      </div>
+    </a>
+  </article>
+</div>
+`;
+
+exports[`ProductItem should match snapshot ProductItem with default text if price is not passed 1`] = `
+<div>
+  <article
+    class="sc-bdvvtL kQKxTo"
+  >
+    <a
+      class="product-link"
+      href="/product/iconia-talk-s"
+    >
+      <img
+        alt="Acer-Iconia Talk S"
+        loading="lazy"
+        src="https://front-test-api.herokuapp.com/images/ZmGrkLRPXOTpxsU4jjAcv.jpg"
+      />
+      <div
+        class="product-info"
+      >
+        <p>
+          <b>
+            Acer
+          </b>
+           
+          Iconia Talk S
+        </p>
+        <span
+          class="price-text"
+        >
+          <small>
+            Price to be consulted
+          </small>
+        </span>
+      </div>
+    </a>
+  </article>
+</div>
+`;

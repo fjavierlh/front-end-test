@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Button should match snapshot button when is Button enable 1`] = `
+<div>
+  <button
+    class="sc-bdvvtL aFQfL"
+    disabled=""
+  >
+    Click me!
+  </button>
+</div>
+`;

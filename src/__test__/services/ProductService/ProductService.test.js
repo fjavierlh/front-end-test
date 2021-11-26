@@ -1,9 +1,9 @@
-import ProductService from '.';
-import { allProducts } from '../../../fixtures/allProducts.fixture';
-import { singleProduct } from '../../../fixtures/singleProduct.fixture';
-import apiClient from '../../infrastructure/api/apiClient';
+import ProductService from '../../../services/ProductService';
+import { allProducts } from '../../../../fixtures/allProducts.fixture';
+import { singleProduct } from '../../../../fixtures/singleProduct.fixture';
+import apiClient from '../../../infrastructure/api/apiClient';
 
-jest.mock('../../infrastructure/api/apiClient');
+jest.mock('../../../infrastructure/api/apiClient');
 
 describe('ProductService', () => {
   test('should return all products', async () => {

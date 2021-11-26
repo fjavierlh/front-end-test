@@ -1,9 +1,9 @@
-import { allProducts } from '../../../fixtures/allProducts.fixture';
-import { singleProduct } from '../../../fixtures/singleProduct.fixture';
-import axios from '../../config/axios.config';
-import apiClient from './apiClient';
+import { allProducts } from '../../../../fixtures/allProducts.fixture';
+import { singleProduct } from '../../../../fixtures/singleProduct.fixture';
+import axios from '../../../config/axios.config';
+import apiClient from '../../../infrastructure/api/apiClient';
 
-jest.mock('../../config/axios.config');
+jest.mock('../../../config/axios.config');
 
 describe('apiClient', () => {
   test('should return an object with all items', async () => {

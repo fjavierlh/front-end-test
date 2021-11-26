@@ -1,0 +1,3316 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ProductList should match snapshot ProductList with all products 1`] = `
+<div>
+  <article
+    class="sc-bdvvtL kQKxTo"
+  >
+    <a
+      class="product-link"
+      href="/product/iconia-talk-s"
+    >
+      <img
+        alt="Acer-Iconia Talk S"
+        loading="lazy"
+        src="https://front-test-api.herokuapp.com/images/ZmGrkLRPXOTpxsU4jjAcv.jpg"
+      />
+      <div
+        class="product-info"
+      >
+        <p>
+          <b>
+            Acer
+          </b>
+           
+          Iconia Talk S
+        </p>
+        <span
+          class="price-text"
+        >
+          <b>
+            170
+            €
+          </b>
+        </span>
+      </div>
+    </a>
+  </article>
+  <article
+    class="sc-bdvvtL kQKxTo"
+  >
+    <a
+      class="product-link"
+      href="/product/liquid-z6-plus"
+    >
+      <img
+        alt="Acer-Liquid Z6 Plus"
+        loading="lazy"
+        src="https://front-test-api.herokuapp.com/images/cGjFJlmqNPIwU59AOcY8H.jpg"
+      />
+      <div
+        class="product-info"
+      >
+        <p>
+          <b>
+            Acer
+          </b>
+           
+          Liquid Z6 Plus
+        </p>
+        <span
+          class="price-text"
+        >
+          <b>
+            250
+            €
+          </b>
+        </span>
+      </div>
+    </a>
+  </article>
+  <article
+    class="sc-bdvvtL kQKxTo"
+  >
+    <a
+      class="product-link"
+      href="/product/liquid-z6"
+    >
+      <img
+        alt="Acer-Liquid Z6"
+        loading="lazy"
+        src="https://front-test-api.herokuapp.com/images/8hKbH2UHPM_944nRHYN1n.jpg"
+      />
+      <div
+        class="product-info"
+      >
+        <p>
+          <b>
+            Acer
+          </b>
+           
+          Liquid Z6
+        </p>
+        <span
+          class="price-text"
+        >
+          <b>
+            120
+            €
+          </b>
+        </span>
+      </div>
+    </a>
+  </article>
+  <article
+    class="sc-bdvvtL kQKxTo"
+  >
+    <a
+      class="product-link"
+      href="/product/iconia-tab-10-a3-a40"
+    >
+      <img
+        alt="Acer-Iconia Tab 10 A3-A40"
+        loading="lazy"
+        src="https://front-test-api.herokuapp.com/images/xyPoqGJxYR4Nn3yVGQcfI.jpg"
+      />
+      <div
+        class="product-info"
+      >
+        <p>
+          <b>
+            Acer
+          </b>
+           
+          Iconia Tab 10 A3-A40
+        </p>
+        <span
+          class="price-text"
+        >
+          <b>
+            230
+            €
+          </b>
+        </span>
+      </div>
+    </a>
+  </article>
+  <article
+    class="sc-bdvvtL kQKxTo"
+  >
+    <a
+      class="product-link"
+      href="/product/liquid-x2"
+    >
+      <img
+        alt="Acer-Liquid X2"
+        loading="lazy"
+        src="https://front-test-api.herokuapp.com/images/ND1elEt4nqZrCeFflDUZ2.jpg"
+      />
+      <div
+        class="product-info"
+      >
+        <p>
+          <b>
+            Acer
+          </b>
+           
+          Liquid X2
+        </p>
+        <span
+          class="price-text"
+        >
+          <b>
+            230
+            €
+          </b>
+        </span>
+      </div>
+    </a>
+  </article>
+  <article
+    class="sc-bdvvtL kQKxTo"
+  >
+    <a
+      class="product-link"
+      href="/product/liquid-jade-2"
+    >
+      <img
+        alt="Acer-Liquid Jade 2"
+        loading="lazy"
+        src="https://front-test-api.herokuapp.com/images/pMZMhe_ZaAPZoaCCtlDrg.jpg"
+      />
+      <div
+        class="product-info"
+      >
+        <p>
+          <b>
+            Acer
+          </b>
+           
+          Liquid Jade 2
+        </p>
+        <span
+          class="price-text"
+        >
+          <small>
+            Price to be consulted
+          </small>
+        </span>
+      </div>
+    </a>
+  </article>
+  <article
+    class="sc-bdvvtL kQKxTo"
+  >
+    <a
+      class="product-link"
+      href="/product/liquid-zest-plus"
+    >
+      <img
+        alt="Acer-Liquid Zest Plus"
+        loading="lazy"
+        src="https://front-test-api.herokuapp.com/images/ke-gsQbO8qH9PQ-zcdiAJ.jpg"
+      />
+      <div
+        class="product-info"
+      >
+        <p>
+          <b>
+            Acer
+          </b>
+           
+          Liquid Zest Plus
+        </p>
+        <span
+          class="price-text"
+        >
+          <b>
+            200
+            €
+          </b>
+        </span>
+      </div>
+    </a>
+  </article>
+  <article
+    class="sc-bdvvtL kQKxTo"
+  >
+    <a
+      class="product-link"
+      href="/product/liquid-zest"
+    >
+      <img
+        alt="Acer-Liquid Zest"
+        loading="lazy"
+        src="https://front-test-api.herokuapp.com/images/meQvyTcXACAwWn3wCKSw6.jpg"
+      />
+      <div
+        class="product-info"
+      >
+        <p>
+          <b>
+            Acer
+          </b>
+           
+          Liquid Zest
+        </p>
+        <span
+          class="price-text"
+        >
+          <b>
+            110
+            €
+          </b>
+        </span>
+      </div>
+    </a>
+  </article>
+  <article
+    class="sc-bdvvtL kQKxTo"
+  >
+    <a
+      class="product-link"
+      href="/product/predator-8"
+    >
+      <img
+        alt="Acer-Predator 8"
+        loading="lazy"
+        src="https://front-test-api.herokuapp.com/images/qSyO-2wbNUssUhBb2waew.jpg"
+      />
+      <div
+        class="product-info"
+      >
+        <p>
+          <b>
+            Acer
+          </b>
+           
+          Predator 8
+        </p>
+        <span
+          class="price-text"
+        >
+          <b>
+            350
+            €
+          </b>
+        </span>
+      </div>
+    </a>
+  </article>
+  <article
+    class="sc-bdvvtL kQKxTo"
+  >
+    <a
+      class="product-link"
+      href="/product/liquid-jade-primo"
+    >
+      <img
+        alt="Acer-Liquid Jade Primo"
+        loading="lazy"
+        src="https://front-test-api.herokuapp.com/images/P2oqviM96_ozwsgZkj9Xf.jpg"
+      />
+      <div
+        class="product-info"
+      >
+        <p>
+          <b>
+            Acer
+          </b>
+           
+          Liquid Jade Primo
+        </p>
+        <span
+          class="price-text"
+        >
+          <b>
+            220
+            €
+          </b>
+        </span>
+      </div>
+    </a>
+  </article>
+  <article
+    class="sc-bdvvtL kQKxTo"
+  >
+    <a
+      class="product-link"
+      href="/product/liquid-z330"
+    >
+      <img
+        alt="Acer-Liquid Z330"
+        loading="lazy"
+        src="https://front-test-api.herokuapp.com/images/ypkE9xhckmUbS1UJRm5dS.jpg"
+      />
+      <div
+        class="product-info"
+      >
+        <p>
+          <b>
+            Acer
+          </b>
+           
+          Liquid Z330
+        </p>
+        <span
+          class="price-text"
+        >
+          <b>
+            110
+            €
+          </b>
+        </span>
+      </div>
+    </a>
+  </article>
+  <article
+    class="sc-bdvvtL kQKxTo"
+  >
+    <a
+      class="product-link"
+      href="/product/liquid-z320"
+    >
+      <img
+        alt="Acer-Liquid Z320"
+        loading="lazy"
+        src="https://front-test-api.herokuapp.com/images/80vJ3yDbtzNIgn_I8Y2m_.jpg"
+      />
+      <div
+        class="product-info"
+      >
+        <p>
+          <b>
+            Acer
+          </b>
+           
+          Liquid Z320
+        </p>
+        <span
+          class="price-text"
+        >
+          <b>
+            90
+            €
+          </b>
+        </span>
+      </div>
+    </a>
+  </article>
+  <article
+    class="sc-bdvvtL kQKxTo"
+  >
+    <a
+      class="product-link"
+      href="/product/liquid-z630s"
+    >
+      <img
+        alt="Acer-Liquid Z630S"
+        loading="lazy"
+        src="https://front-test-api.herokuapp.com/images/Cu6y7RudjqPTBIYvW6QXd.jpg"
+      />
+      <div
+        class="product-info"
+      >
+        <p>
+          <b>
+            Acer
+          </b>
+           
+          Liquid Z630S
+        </p>
+        <span
+          class="price-text"
+        >
+          <small>
+            Price to be consulted
+          </small>
+        </span>
+      </div>
+    </a>
+  </article>
+  <article
+    class="sc-bdvvtL kQKxTo"
+  >
+    <a
+      class="product-link"
+      href="/product/liquid-z630"
+    >
+      <img
+        alt="Acer-Liquid Z630"
+        loading="lazy"
+        src="https://front-test-api.herokuapp.com/images/MM2fHBcJqz2i32km9z2fj.jpg"
+      />
+      <div
+        class="product-info"
+      >
+        <p>
+          <b>
+            Acer
+          </b>
+           
+          Liquid Z630
+        </p>
+        <span
+          class="price-text"
+        >
+          <b>
+            200
+            €
+          </b>
+        </span>
+      </div>
+    </a>
+  </article>
+  <article
+    class="sc-bdvvtL kQKxTo"
+  >
+    <a
+      class="product-link"
+      href="/product/liquid-z530s"
+    >
+      <img
+        alt="Acer-Liquid Z530S"
+        loading="lazy"
+        src="https://front-test-api.herokuapp.com/images/ND9m-Ujc5THD1F7tG2sNk.jpg"
+      />
+      <div
+        class="product-info"
+      >
+        <p>
+          <b>
+            Acer
+          </b>
+           
+          Liquid Z530S
+        </p>
+        <span
+          class="price-text"
+        >
+          <small>
+            Price to be consulted
+          </small>
+        </span>
+      </div>
+    </a>
+  </article>
+  <article
+    class="sc-bdvvtL kQKxTo"
+  >
+    <a
+      class="product-link"
+      href="/product/liquid-z530"
+    >
+      <img
+        alt="Acer-Liquid Z530"
+        loading="lazy"
+        src="https://front-test-api.herokuapp.com/images/HDoYWSmljdIlnBYT3utez.jpg"
+      />
+      <div
+        class="product-info"
+      >
+        <p>
+          <b>
+            Acer
+          </b>
+           
+          Liquid Z530
+        </p>
+        <span
+          class="price-text"
+        >
+          <b>
+            150
+            €
+          </b>
+        </span>
+      </div>
+    </a>
+  </article>
+  <article
+    class="sc-bdvvtL kQKxTo"
+  >
+    <a
+      class="product-link"
+      href="/product/liquid-m330"
+    >
+      <img
+        alt="Acer-Liquid M330"
+        loading="lazy"
+        src="https://front-test-api.herokuapp.com/images/CbrppwKzpqRq_ScJDRbEy.jpg"
+      />
+      <div
+        class="product-info"
+      >
+        <p>
+          <b>
+            Acer
+          </b>
+           
+          Liquid M330
+        </p>
+        <span
+          class="price-text"
+        >
+          <small>
+            Price to be consulted
+          </small>
+        </span>
+      </div>
+    </a>
+  </article>
+  <article
+    class="sc-bdvvtL kQKxTo"
+  >
+    <a
+      class="product-link"
+      href="/product/liquid-m320"
+    >
+      <img
+        alt="Acer-Liquid M320"
+        loading="lazy"
+        src="https://front-test-api.herokuapp.com/images/F1v2jy0lBKeIiM9XeoqVo.jpg"
+      />
+      <div
+        class="product-info"
+      >
+        <p>
+          <b>
+            Acer
+          </b>
+           
+          Liquid M320
+        </p>
+        <span
+          class="price-text"
+        >
+          <small>
+            Price to be consulted
+          </small>
+        </span>
+      </div>
+    </a>
+  </article>
+  <article
+    class="sc-bdvvtL kQKxTo"
+  >
+    <a
+      class="product-link"
+      href="/product/iconia-tab-10-a3-a30"
+    >
+      <img
+        alt="Acer-Iconia Tab 10 A3-A30"
+        loading="lazy"
+        src="https://front-test-api.herokuapp.com/images/OFSh45Qwox4OAgwo9pmxZ.jpg"
+      />
+      <div
+        class="product-info"
+      >
+        <p>
+          <b>
+            Acer
+          </b>
+           
+          Iconia Tab 10 A3-A30
+        </p>
+        <span
+          class="price-text"
+        >
+          <b>
+            250
+            €
+          </b>
+        </span>
+      </div>
+    </a>
+  </article>
+  <article
+    class="sc-bdvvtL kQKxTo"
+  >
+    <a
+      class="product-link"
+      href="/product/iconia-one-8-b1-820"
+    >
+      <img
+        alt="Acer-Iconia One 8 B1-820"
+        loading="lazy"
+        src="https://front-test-api.herokuapp.com/images/zrkx5FlcWhAAtrezpcwiP.jpg"
+      />
+      <div
+        class="product-info"
+      >
+        <p>
+          <b>
+            Acer
+          </b>
+           
+          Iconia One 8 B1-820
+        </p>
+        <span
+          class="price-text"
+        >
+          <b>
+            180
+            €
+          </b>
+        </span>
+      </div>
+    </a>
+  </article>
+  <article
+    class="sc-bdvvtL kQKxTo"
+  >
+    <a
+      class="product-link"
+      href="/product/iconia-tab-a3-a20"
+    >
+      <img
+        alt="Acer-Iconia Tab A3-A20"
+        loading="lazy"
+        src="https://front-test-api.herokuapp.com/images/H96ma4NiDvD24fusy1qVm.jpg"
+      />
+      <div
+        class="product-info"
+      >
+        <p>
+          <b>
+            Acer
+          </b>
+           
+          Iconia Tab A3-A20
+        </p>
+        <span
+          class="price-text"
+        >
+          <b>
+            190
+            €
+          </b>
+        </span>
+      </div>
+    </a>
+  </article>
+  <article
+    class="sc-bdvvtL kQKxTo"
+  >
+    <a
+      class="product-link"
+      href="/product/iconia-tab-a3-a20fhd"
+    >
+      <img
+        alt="Acer-Iconia Tab A3-A20FHD"
+        loading="lazy"
+        src="https://front-test-api.herokuapp.com/images/owhq-O7mvLqthfcmkT7Wo.jpg"
+      />
+      <div
+        class="product-info"
+      >
+        <p>
+          <b>
+            Acer
+          </b>
+           
+          Iconia Tab A3-A20FHD
+        </p>
+        <span
+          class="price-text"
+        >
+          <b>
+            230
+            €
+          </b>
+        </span>
+      </div>
+    </a>
+  </article>
+  <article
+    class="sc-bdvvtL kQKxTo"
+  >
+    <a
+      class="product-link"
+      href="/product/liquid-jade-z"
+    >
+      <img
+        alt="Acer-Liquid Jade Z"
+        loading="lazy"
+        src="https://front-test-api.herokuapp.com/images/b0FXpSCfYdwLxDRcpVCEw.jpg"
+      />
+      <div
+        class="product-info"
+      >
+        <p>
+          <b>
+            Acer
+          </b>
+           
+          Liquid Jade Z
+        </p>
+        <span
+          class="price-text"
+        >
+          <b>
+            200
+            €
+          </b>
+        </span>
+      </div>
+    </a>
+  </article>
+  <article
+    class="sc-bdvvtL kQKxTo"
+  >
+    <a
+      class="product-link"
+      href="/product/liquid-z520"
+    >
+      <img
+        alt="Acer-Liquid Z520"
+        loading="lazy"
+        src="https://front-test-api.herokuapp.com/images/oYHTd-OavEF_GiX2b2282.jpg"
+      />
+      <div
+        class="product-info"
+      >
+        <p>
+          <b>
+            Acer
+          </b>
+           
+          Liquid Z520
+        </p>
+        <span
+          class="price-text"
+        >
+          <b>
+            130
+            €
+          </b>
+        </span>
+      </div>
+    </a>
+  </article>
+  <article
+    class="sc-bdvvtL kQKxTo"
+  >
+    <a
+      class="product-link"
+      href="/product/liquid-z220"
+    >
+      <img
+        alt="Acer-Liquid Z220"
+        loading="lazy"
+        src="https://front-test-api.herokuapp.com/images/Jz_TwlgtO8UiNZBfb72A3.jpg"
+      />
+      <div
+        class="product-info"
+      >
+        <p>
+          <b>
+            Acer
+          </b>
+           
+          Liquid Z220
+        </p>
+        <span
+          class="price-text"
+        >
+          <b>
+            90
+            €
+          </b>
+        </span>
+      </div>
+    </a>
+  </article>
+  <article
+    class="sc-bdvvtL kQKxTo"
+  >
+    <a
+      class="product-link"
+      href="/product/liquid-m220"
+    >
+      <img
+        alt="Acer-Liquid M220"
+        loading="lazy"
+        src="https://front-test-api.herokuapp.com/images/vewzlidGwx6t04-mWes0_.jpg"
+      />
+      <div
+        class="product-info"
+      >
+        <p>
+          <b>
+            Acer
+          </b>
+           
+          Liquid M220
+        </p>
+        <span
+          class="price-text"
+        >
+          <b>
+            80
+            €
+          </b>
+        </span>
+      </div>
+    </a>
+  </article>
+  <article
+    class="sc-bdvvtL kQKxTo"
+  >
+    <a
+      class="product-link"
+      href="/product/liquid-z410"
+    >
+      <img
+        alt="Acer-Liquid Z410"
+        loading="lazy"
+        src="https://front-test-api.herokuapp.com/images/8Mjqgt5s_52Pcx5jiZ4ch.jpg"
+      />
+      <div
+        class="product-info"
+      >
+        <p>
+          <b>
+            Acer
+          </b>
+           
+          Liquid Z410
+        </p>
+        <span
+          class="price-text"
+        >
+          <b>
+            130
+            €
+          </b>
+        </span>
+      </div>
+    </a>
+  </article>
+  <article
+    class="sc-bdvvtL kQKxTo"
+  >
+    <a
+      class="product-link"
+      href="/product/liquid-jade-s"
+    >
+      <img
+        alt="Acer-Liquid Jade S"
+        loading="lazy"
+        src="https://front-test-api.herokuapp.com/images/hijjtJAPpkJjVJNg0VMiF.jpg"
+      />
+      <div
+        class="product-info"
+      >
+        <p>
+          <b>
+            Acer
+          </b>
+           
+          Liquid Jade S
+        </p>
+        <span
+          class="price-text"
+        >
+          <b>
+            200
+            €
+          </b>
+        </span>
+      </div>
+    </a>
+  </article>
+  <article
+    class="sc-bdvvtL kQKxTo"
+  >
+    <a
+      class="product-link"
+      href="/product/liquid-z500"
+    >
+      <img
+        alt="Acer-Liquid Z500"
+        loading="lazy"
+        src="https://front-test-api.herokuapp.com/images/LZtnc7B4bydiEvS0q7n8D.jpg"
+      />
+      <div
+        class="product-info"
+      >
+        <p>
+          <b>
+            Acer
+          </b>
+           
+          Liquid Z500
+        </p>
+        <span
+          class="price-text"
+        >
+          <b>
+            150
+            €
+          </b>
+        </span>
+      </div>
+    </a>
+  </article>
+  <article
+    class="sc-bdvvtL kQKxTo"
+  >
+    <a
+      class="product-link"
+      href="/product/liquid-x1"
+    >
+      <img
+        alt="Acer-Liquid X1"
+        loading="lazy"
+        src="https://front-test-api.herokuapp.com/images/u5NcIw9hXhXd9RVLZMB2_.jpg"
+      />
+      <div
+        class="product-info"
+      >
+        <p>
+          <b>
+            Acer
+          </b>
+           
+          Liquid X1
+        </p>
+        <span
+          class="price-text"
+        >
+          <b>
+            260
+            €
+          </b>
+        </span>
+      </div>
+    </a>
+  </article>
+  <article
+    class="sc-bdvvtL kQKxTo"
+  >
+    <a
+      class="product-link"
+      href="/product/liquid-jade"
+    >
+      <img
+        alt="Acer-Liquid Jade"
+        loading="lazy"
+        src="https://front-test-api.herokuapp.com/images/TgvkdsCB_SWzg5R6GNxUl.jpg"
+      />
+      <div
+        class="product-info"
+      >
+        <p>
+          <b>
+            Acer
+          </b>
+           
+          Liquid Jade
+        </p>
+        <span
+          class="price-text"
+        >
+          <b>
+            180
+            €
+          </b>
+        </span>
+      </div>
+    </a>
+  </article>
+  <article
+    class="sc-bdvvtL kQKxTo"
+  >
+    <a
+      class="product-link"
+      href="/product/liquid-e700"
+    >
+      <img
+        alt="Acer-Liquid E700"
+        loading="lazy"
+        src="https://front-test-api.herokuapp.com/images/ffrNCXIcbmYX8W8_I0KSv.jpg"
+      />
+      <div
+        class="product-info"
+      >
+        <p>
+          <b>
+            Acer
+          </b>
+           
+          Liquid E700
+        </p>
+        <span
+          class="price-text"
+        >
+          <b>
+            200
+            €
+          </b>
+        </span>
+      </div>
+    </a>
+  </article>
+  <article
+    class="sc-bdvvtL kQKxTo"
+  >
+    <a
+      class="product-link"
+      href="/product/liquid-e600"
+    >
+      <img
+        alt="Acer-Liquid E600"
+        loading="lazy"
+        src="https://front-test-api.herokuapp.com/images/6eGJnf4C82CfE-TuMRKzT.jpg"
+      />
+      <div
+        class="product-info"
+      >
+        <p>
+          <b>
+            Acer
+          </b>
+           
+          Liquid E600
+        </p>
+        <span
+          class="price-text"
+        >
+          <b>
+            200
+            €
+          </b>
+        </span>
+      </div>
+    </a>
+  </article>
+  <article
+    class="sc-bdvvtL kQKxTo"
+  >
+    <a
+      class="product-link"
+      href="/product/liquid-z200"
+    >
+      <img
+        alt="Acer-Liquid Z200"
+        loading="lazy"
+        src="https://front-test-api.herokuapp.com/images/SgwXe_g2IV0q21MdLvEoa.jpg"
+      />
+      <div
+        class="product-info"
+      >
+        <p>
+          <b>
+            Acer
+          </b>
+           
+          Liquid Z200
+        </p>
+        <span
+          class="price-text"
+        >
+          <b>
+            90
+            €
+          </b>
+        </span>
+      </div>
+    </a>
+  </article>
+  <article
+    class="sc-bdvvtL kQKxTo"
+  >
+    <a
+      class="product-link"
+      href="/product/iconia-tab-8-a1-840fhd"
+    >
+      <img
+        alt="Acer-Iconia Tab 8 A1-840FHD"
+        loading="lazy"
+        src="https://front-test-api.herokuapp.com/images/NxHllbhY5noFtIc7TGI2Y.jpg"
+      />
+      <div
+        class="product-info"
+      >
+        <p>
+          <b>
+            Acer
+          </b>
+           
+          Iconia Tab 8 A1-840FHD
+        </p>
+        <span
+          class="price-text"
+        >
+          <b>
+            200
+            €
+          </b>
+        </span>
+      </div>
+    </a>
+  </article>
+  <article
+    class="sc-bdvvtL kQKxTo"
+  >
+    <a
+      class="product-link"
+      href="/product/iconia-tab-7-a1-713"
+    >
+      <img
+        alt="Acer-Iconia Tab 7 A1-713"
+        loading="lazy"
+        src="https://front-test-api.herokuapp.com/images/dh1NH2p477n_7a1hOW5Vo.jpg"
+      />
+      <div
+        class="product-info"
+      >
+        <p>
+          <b>
+            Acer
+          </b>
+           
+          Iconia Tab 7 A1-713
+        </p>
+        <span
+          class="price-text"
+        >
+          <b>
+            110
+            €
+          </b>
+        </span>
+      </div>
+    </a>
+  </article>
+  <article
+    class="sc-bdvvtL kQKxTo"
+  >
+    <a
+      class="product-link"
+      href="/product/iconia-tab-7-a1-713hd"
+    >
+      <img
+        alt="Acer-Iconia Tab 7 A1-713HD"
+        loading="lazy"
+        src="https://front-test-api.herokuapp.com/images/5punfLUYaWq1TFCm9PyX7.jpg"
+      />
+      <div
+        class="product-info"
+      >
+        <p>
+          <b>
+            Acer
+          </b>
+           
+          Iconia Tab 7 A1-713HD
+        </p>
+        <span
+          class="price-text"
+        >
+          <b>
+            150
+            €
+          </b>
+        </span>
+      </div>
+    </a>
+  </article>
+  <article
+    class="sc-bdvvtL kQKxTo"
+  >
+    <a
+      class="product-link"
+      href="/product/iconia-one-7-b1-730"
+    >
+      <img
+        alt="Acer-Iconia One 7 B1-730"
+        loading="lazy"
+        src="https://front-test-api.herokuapp.com/images/Vrfi9vZJ1Cz3icKjSJ-24.jpg"
+      />
+      <div
+        class="product-info"
+      >
+        <p>
+          <b>
+            Acer
+          </b>
+           
+          Iconia One 7 B1-730
+        </p>
+        <span
+          class="price-text"
+        >
+          <b>
+            90
+            €
+          </b>
+        </span>
+      </div>
+    </a>
+  </article>
+  <article
+    class="sc-bdvvtL kQKxTo"
+  >
+    <a
+      class="product-link"
+      href="/product/liquid-e3-duo-plus"
+    >
+      <img
+        alt="Acer-Liquid E3 Duo Plus"
+        loading="lazy"
+        src="https://front-test-api.herokuapp.com/images/urpRcsTH4SuKPcGrzy-pa.jpg"
+      />
+      <div
+        class="product-info"
+      >
+        <p>
+          <b>
+            Acer
+          </b>
+           
+          Liquid E3 Duo Plus
+        </p>
+        <span
+          class="price-text"
+        >
+          <b>
+            240
+            €
+          </b>
+        </span>
+      </div>
+    </a>
+  </article>
+  <article
+    class="sc-bdvvtL kQKxTo"
+  >
+    <a
+      class="product-link"
+      href="/product/liquid-e3"
+    >
+      <img
+        alt="Acer-Liquid E3"
+        loading="lazy"
+        src="https://front-test-api.herokuapp.com/images/qu-cIoRt8Y4ZeQdCuOr4l.jpg"
+      />
+      <div
+        class="product-info"
+      >
+        <p>
+          <b>
+            Acer
+          </b>
+           
+          Liquid E3
+        </p>
+        <span
+          class="price-text"
+        >
+          <b>
+            200
+            €
+          </b>
+        </span>
+      </div>
+    </a>
+  </article>
+  <article
+    class="sc-bdvvtL kQKxTo"
+  >
+    <a
+      class="product-link"
+      href="/product/liquid-z4"
+    >
+      <img
+        alt="Acer-Liquid Z4"
+        loading="lazy"
+        src="https://front-test-api.herokuapp.com/images/0lorDqcSqdBCype-jg9qQ.jpg"
+      />
+      <div
+        class="product-info"
+      >
+        <p>
+          <b>
+            Acer
+          </b>
+           
+          Liquid Z4
+        </p>
+        <span
+          class="price-text"
+        >
+          <b>
+            100
+            €
+          </b>
+        </span>
+      </div>
+    </a>
+  </article>
+  <article
+    class="sc-bdvvtL kQKxTo"
+  >
+    <a
+      class="product-link"
+      href="/product/iconia-b1-721"
+    >
+      <img
+        alt="Acer-Iconia B1-721"
+        loading="lazy"
+        src="https://front-test-api.herokuapp.com/images/pjTe9sGqDQ1nPu36P5wjv.jpg"
+      />
+      <div
+        class="product-info"
+      >
+        <p>
+          <b>
+            Acer
+          </b>
+           
+          Iconia B1-721
+        </p>
+        <span
+          class="price-text"
+        >
+          <b>
+            130
+            €
+          </b>
+        </span>
+      </div>
+    </a>
+  </article>
+  <article
+    class="sc-bdvvtL kQKxTo"
+  >
+    <a
+      class="product-link"
+      href="/product/iconia-b1-720"
+    >
+      <img
+        alt="Acer-Iconia B1-720"
+        loading="lazy"
+        src="https://front-test-api.herokuapp.com/images/Vler4w4LGIz8Yd9OvW6Rk.jpg"
+      />
+      <div
+        class="product-info"
+      >
+        <p>
+          <b>
+            Acer
+          </b>
+           
+          Iconia B1-720
+        </p>
+        <span
+          class="price-text"
+        >
+          <b>
+            100
+            €
+          </b>
+        </span>
+      </div>
+    </a>
+  </article>
+  <article
+    class="sc-bdvvtL kQKxTo"
+  >
+    <a
+      class="product-link"
+      href="/product/iconia-a1-830"
+    >
+      <img
+        alt="Acer-Iconia A1-830"
+        loading="lazy"
+        src="https://front-test-api.herokuapp.com/images/-1rZk60UZw3B3lJIDVDjv.jpg"
+      />
+      <div
+        class="product-info"
+      >
+        <p>
+          <b>
+            Acer
+          </b>
+           
+          Iconia A1-830
+        </p>
+        <span
+          class="price-text"
+        >
+          <b>
+            130
+            €
+          </b>
+        </span>
+      </div>
+    </a>
+  </article>
+  <article
+    class="sc-bdvvtL kQKxTo"
+  >
+    <a
+      class="product-link"
+      href="/product/liquid-z5"
+    >
+      <img
+        alt="Acer-Liquid Z5"
+        loading="lazy"
+        src="https://front-test-api.herokuapp.com/images/DsGBSPGNxyx6UMdbNRaLJ.jpg"
+      />
+      <div
+        class="product-info"
+      >
+        <p>
+          <b>
+            Acer
+          </b>
+           
+          Liquid Z5
+        </p>
+        <span
+          class="price-text"
+        >
+          <b>
+            170
+            €
+          </b>
+        </span>
+      </div>
+    </a>
+  </article>
+  <article
+    class="sc-bdvvtL kQKxTo"
+  >
+    <a
+      class="product-link"
+      href="/product/liquid-s2"
+    >
+      <img
+        alt="Acer-Liquid S2"
+        loading="lazy"
+        src="https://front-test-api.herokuapp.com/images/Eu1FhAVDV74gv5dByEOXe.jpg"
+      />
+      <div
+        class="product-info"
+      >
+        <p>
+          <b>
+            Acer
+          </b>
+           
+          Liquid S2
+        </p>
+        <span
+          class="price-text"
+        >
+          <b>
+            340
+            €
+          </b>
+        </span>
+      </div>
+    </a>
+  </article>
+  <article
+    class="sc-bdvvtL kQKxTo"
+  >
+    <a
+      class="product-link"
+      href="/product/liquid-z3"
+    >
+      <img
+        alt="Acer-Liquid Z3"
+        loading="lazy"
+        src="https://front-test-api.herokuapp.com/images/TI8y66iY0qBONt-dXYTzy.jpg"
+      />
+      <div
+        class="product-info"
+      >
+        <p>
+          <b>
+            Acer
+          </b>
+           
+          Liquid Z3
+        </p>
+        <span
+          class="price-text"
+        >
+          <b>
+            100
+            €
+          </b>
+        </span>
+      </div>
+    </a>
+  </article>
+  <article
+    class="sc-bdvvtL kQKxTo"
+  >
+    <a
+      class="product-link"
+      href="/product/liquid-s1"
+    >
+      <img
+        alt="Acer-Liquid S1"
+        loading="lazy"
+        src="https://front-test-api.herokuapp.com/images/yZm1cwG6Ita7loevgVe6O.jpg"
+      />
+      <div
+        class="product-info"
+      >
+        <p>
+          <b>
+            Acer
+          </b>
+           
+          Liquid S1
+        </p>
+        <span
+          class="price-text"
+        >
+          <b>
+            320
+            €
+          </b>
+        </span>
+      </div>
+    </a>
+  </article>
+  <article
+    class="sc-bdvvtL kQKxTo"
+  >
+    <a
+      class="product-link"
+      href="/product/iconia-tab-a3"
+    >
+      <img
+        alt="Acer-Iconia Tab A3"
+        loading="lazy"
+        src="https://front-test-api.herokuapp.com/images/is61vMoQLDsijwzUUatOc.jpg"
+      />
+      <div
+        class="product-info"
+      >
+        <p>
+          <b>
+            Acer
+          </b>
+           
+          Iconia Tab A3
+        </p>
+        <span
+          class="price-text"
+        >
+          <b>
+            190
+            €
+          </b>
+        </span>
+      </div>
+    </a>
+  </article>
+  <article
+    class="sc-bdvvtL kQKxTo"
+  >
+    <a
+      class="product-link"
+      href="/product/iconia-tab-a1-811"
+    >
+      <img
+        alt="Acer-Iconia Tab A1-811"
+        loading="lazy"
+        src="https://front-test-api.herokuapp.com/images/RQomHIr6fBkRWa_tjGKif.jpg"
+      />
+      <div
+        class="product-info"
+      >
+        <p>
+          <b>
+            Acer
+          </b>
+           
+          Iconia Tab A1-811
+        </p>
+        <span
+          class="price-text"
+        >
+          <b>
+            150
+            €
+          </b>
+        </span>
+      </div>
+    </a>
+  </article>
+  <article
+    class="sc-bdvvtL kQKxTo"
+  >
+    <a
+      class="product-link"
+      href="/product/iconia-tab-a1-810"
+    >
+      <img
+        alt="Acer-Iconia Tab A1-810"
+        loading="lazy"
+        src="https://front-test-api.herokuapp.com/images/gaPipkCX7QQ56QNOHwLGL.jpg"
+      />
+      <div
+        class="product-info"
+      >
+        <p>
+          <b>
+            Acer
+          </b>
+           
+          Iconia Tab A1-810
+        </p>
+        <span
+          class="price-text"
+        >
+          <b>
+            120
+            €
+          </b>
+        </span>
+      </div>
+    </a>
+  </article>
+  <article
+    class="sc-bdvvtL kQKxTo"
+  >
+    <a
+      class="product-link"
+      href="/product/liquid-e2"
+    >
+      <img
+        alt="Acer-Liquid E2"
+        loading="lazy"
+        src="https://front-test-api.herokuapp.com/images/7ccKfTECQjJgYcPAFlP5t.jpg"
+      />
+      <div
+        class="product-info"
+      >
+        <p>
+          <b>
+            Acer
+          </b>
+           
+          Liquid E2
+        </p>
+        <span
+          class="price-text"
+        >
+          <b>
+            180
+            €
+          </b>
+        </span>
+      </div>
+    </a>
+  </article>
+  <article
+    class="sc-bdvvtL kQKxTo"
+  >
+    <a
+      class="product-link"
+      href="/product/liquid-z2"
+    >
+      <img
+        alt="Acer-Liquid Z2"
+        loading="lazy"
+        src="https://front-test-api.herokuapp.com/images/NdN-fFvRufW0H9M95MdG4.jpg"
+      />
+      <div
+        class="product-info"
+      >
+        <p>
+          <b>
+            Acer
+          </b>
+           
+          Liquid Z2
+        </p>
+        <span
+          class="price-text"
+        >
+          <b>
+            100
+            €
+          </b>
+        </span>
+      </div>
+    </a>
+  </article>
+  <article
+    class="sc-bdvvtL kQKxTo"
+  >
+    <a
+      class="product-link"
+      href="/product/liquid-c1"
+    >
+      <img
+        alt="Acer-Liquid C1"
+        loading="lazy"
+        src="https://front-test-api.herokuapp.com/images/v_MpEYR7Cw1AdE7sH3azi.jpg"
+      />
+      <div
+        class="product-info"
+      >
+        <p>
+          <b>
+            Acer
+          </b>
+           
+          Liquid C1
+        </p>
+        <span
+          class="price-text"
+        >
+          <b>
+            180
+            €
+          </b>
+        </span>
+      </div>
+    </a>
+  </article>
+  <article
+    class="sc-bdvvtL kQKxTo"
+  >
+    <a
+      class="product-link"
+      href="/product/liquid-e1"
+    >
+      <img
+        alt="Acer-Liquid E1"
+        loading="lazy"
+        src="https://front-test-api.herokuapp.com/images/wPiLrI4W4gpSoZbJWzNuW.jpg"
+      />
+      <div
+        class="product-info"
+      >
+        <p>
+          <b>
+            Acer
+          </b>
+           
+          Liquid E1
+        </p>
+        <span
+          class="price-text"
+        >
+          <b>
+            170
+            €
+          </b>
+        </span>
+      </div>
+    </a>
+  </article>
+  <article
+    class="sc-bdvvtL kQKxTo"
+  >
+    <a
+      class="product-link"
+      href="/product/iconia-tab-b1-710"
+    >
+      <img
+        alt="Acer-Iconia Tab B1-710"
+        loading="lazy"
+        src="https://front-test-api.herokuapp.com/images/lFr3r-mpKG3KyA2UZjuRV.jpg"
+      />
+      <div
+        class="product-info"
+      >
+        <p>
+          <b>
+            Acer
+          </b>
+           
+          Iconia Tab B1-710
+        </p>
+        <span
+          class="price-text"
+        >
+          <b>
+            110
+            €
+          </b>
+        </span>
+      </div>
+    </a>
+  </article>
+  <article
+    class="sc-bdvvtL kQKxTo"
+  >
+    <a
+      class="product-link"
+      href="/product/iconia-tab-b1-a71"
+    >
+      <img
+        alt="Acer-Iconia Tab B1-A71"
+        loading="lazy"
+        src="https://front-test-api.herokuapp.com/images/YMYuOd_7l1c85pJlSfrO4.jpg"
+      />
+      <div
+        class="product-info"
+      >
+        <p>
+          <b>
+            Acer
+          </b>
+           
+          Iconia Tab B1-A71
+        </p>
+        <span
+          class="price-text"
+        >
+          <b>
+            100
+            €
+          </b>
+        </span>
+      </div>
+    </a>
+  </article>
+  <article
+    class="sc-bdvvtL kQKxTo"
+  >
+    <a
+      class="product-link"
+      href="/product/iconia-tab-a110"
+    >
+      <img
+        alt="Acer-Iconia Tab A110"
+        loading="lazy"
+        src="https://front-test-api.herokuapp.com/images/MNQ60tCTGd4da74gMBE34.jpg"
+      />
+      <div
+        class="product-info"
+      >
+        <p>
+          <b>
+            Acer
+          </b>
+           
+          Iconia Tab A110
+        </p>
+        <span
+          class="price-text"
+        >
+          <b>
+            150
+            €
+          </b>
+        </span>
+      </div>
+    </a>
+  </article>
+  <article
+    class="sc-bdvvtL kQKxTo"
+  >
+    <a
+      class="product-link"
+      href="/product/liquid-z110"
+    >
+      <img
+        alt="Acer-Liquid Z110"
+        loading="lazy"
+        src="https://front-test-api.herokuapp.com/images/HMOuPwZxhdIMXr2ZcF8fG.jpg"
+      />
+      <div
+        class="product-info"
+      >
+        <p>
+          <b>
+            Acer
+          </b>
+           
+          Liquid Z110
+        </p>
+        <span
+          class="price-text"
+        >
+          <b>
+            100
+            €
+          </b>
+        </span>
+      </div>
+    </a>
+  </article>
+  <article
+    class="sc-bdvvtL kQKxTo"
+  >
+    <a
+      class="product-link"
+      href="/product/liquid-gallant-e350"
+    >
+      <img
+        alt="Acer-Liquid Gallant E350"
+        loading="lazy"
+        src="https://front-test-api.herokuapp.com/images/foZKHhJHTJFzJUsOk9yUf.jpg"
+      />
+      <div
+        class="product-info"
+      >
+        <p>
+          <b>
+            Acer
+          </b>
+           
+          Liquid Gallant E350
+        </p>
+        <span
+          class="price-text"
+        >
+          <b>
+            160
+            €
+          </b>
+        </span>
+      </div>
+    </a>
+  </article>
+  <article
+    class="sc-bdvvtL kQKxTo"
+  >
+    <a
+      class="product-link"
+      href="/product/liquid-gallant-duo"
+    >
+      <img
+        alt="Acer-Liquid Gallant Duo"
+        loading="lazy"
+        src="https://front-test-api.herokuapp.com/images/cxj46NpVKo8gj3zs7qEiW.jpg"
+      />
+      <div
+        class="product-info"
+      >
+        <p>
+          <b>
+            Acer
+          </b>
+           
+          Liquid Gallant Duo
+        </p>
+        <span
+          class="price-text"
+        >
+          <b>
+            140
+            €
+          </b>
+        </span>
+      </div>
+    </a>
+  </article>
+  <article
+    class="sc-bdvvtL kQKxTo"
+  >
+    <a
+      class="product-link"
+      href="/product/liquid-glow-e330"
+    >
+      <img
+        alt="Acer-Liquid Glow E330"
+        loading="lazy"
+        src="https://front-test-api.herokuapp.com/images/vq2BUpzsptErc8pFY-Jad.jpg"
+      />
+      <div
+        class="product-info"
+      >
+        <p>
+          <b>
+            Acer
+          </b>
+           
+          Liquid Glow E330
+        </p>
+        <span
+          class="price-text"
+        >
+          <b>
+            120
+            €
+          </b>
+        </span>
+      </div>
+    </a>
+  </article>
+  <article
+    class="sc-bdvvtL kQKxTo"
+  >
+    <a
+      class="product-link"
+      href="/product/cloudmobile-s500"
+    >
+      <img
+        alt="Acer-CloudMobile S500"
+        loading="lazy"
+        src="https://front-test-api.herokuapp.com/images/nuz9Sm0Z3O7ihby7kkfSy.jpg"
+      />
+      <div
+        class="product-info"
+      >
+        <p>
+          <b>
+            Acer
+          </b>
+           
+          CloudMobile S500
+        </p>
+        <span
+          class="price-text"
+        >
+          <b>
+            220
+            €
+          </b>
+        </span>
+      </div>
+    </a>
+  </article>
+  <article
+    class="sc-bdvvtL kQKxTo"
+  >
+    <a
+      class="product-link"
+      href="/product/iconia-tab-a210"
+    >
+      <img
+        alt="Acer-Iconia Tab A210"
+        loading="lazy"
+        src="https://front-test-api.herokuapp.com/images/LOimcAeTiyIMmCwHZlKQ1.jpg"
+      />
+      <div
+        class="product-info"
+      >
+        <p>
+          <b>
+            Acer
+          </b>
+           
+          Iconia Tab A210
+        </p>
+        <span
+          class="price-text"
+        >
+          <b>
+            260
+            €
+          </b>
+        </span>
+      </div>
+    </a>
+  </article>
+  <article
+    class="sc-bdvvtL kQKxTo"
+  >
+    <a
+      class="product-link"
+      href="/product/iconia-tab-a200"
+    >
+      <img
+        alt="Acer-Iconia Tab A200"
+        loading="lazy"
+        src="https://front-test-api.herokuapp.com/images/F_WYCn1b7EPfXWllHblnH.jpg"
+      />
+      <div
+        class="product-info"
+      >
+        <p>
+          <b>
+            Acer
+          </b>
+           
+          Iconia Tab A200
+        </p>
+        <span
+          class="price-text"
+        >
+          <b>
+            200
+            €
+          </b>
+        </span>
+      </div>
+    </a>
+  </article>
+  <article
+    class="sc-bdvvtL kQKxTo"
+  >
+    <a
+      class="product-link"
+      href="/product/iconia-tab-a701"
+    >
+      <img
+        alt="Acer-Iconia Tab A701"
+        loading="lazy"
+        src="https://front-test-api.herokuapp.com/images/C97wpVO9LS5WnogqpaskA.jpg"
+      />
+      <div
+        class="product-info"
+      >
+        <p>
+          <b>
+            Acer
+          </b>
+           
+          Iconia Tab A701
+        </p>
+        <span
+          class="price-text"
+        >
+          <b>
+            380
+            €
+          </b>
+        </span>
+      </div>
+    </a>
+  </article>
+  <article
+    class="sc-bdvvtL kQKxTo"
+  >
+    <a
+      class="product-link"
+      href="/product/iconia-tab-a700"
+    >
+      <img
+        alt="Acer-Iconia Tab A700"
+        loading="lazy"
+        src="https://front-test-api.herokuapp.com/images/g18mWn2tnbOq2HJx98pTb.jpg"
+      />
+      <div
+        class="product-info"
+      >
+        <p>
+          <b>
+            Acer
+          </b>
+           
+          Iconia Tab A700
+        </p>
+        <span
+          class="price-text"
+        >
+          <b>
+            230
+            €
+          </b>
+        </span>
+      </div>
+    </a>
+  </article>
+  <article
+    class="sc-bdvvtL kQKxTo"
+  >
+    <a
+      class="product-link"
+      href="/product/iconia-tab-a511"
+    >
+      <img
+        alt="Acer-Iconia Tab A511"
+        loading="lazy"
+        src="https://front-test-api.herokuapp.com/images/kOIiAHRN9YNepXjWuio4f.jpg"
+      />
+      <div
+        class="product-info"
+      >
+        <p>
+          <b>
+            Acer
+          </b>
+           
+          Iconia Tab A511
+        </p>
+        <span
+          class="price-text"
+        >
+          <b>
+            250
+            €
+          </b>
+        </span>
+      </div>
+    </a>
+  </article>
+  <article
+    class="sc-bdvvtL kQKxTo"
+  >
+    <a
+      class="product-link"
+      href="/product/iconia-tab-a510"
+    >
+      <img
+        alt="Acer-Iconia Tab A510"
+        loading="lazy"
+        src="https://front-test-api.herokuapp.com/images/Kb3L-_qpdIqrrsv3oknpG.jpg"
+      />
+      <div
+        class="product-info"
+      >
+        <p>
+          <b>
+            Acer
+          </b>
+           
+          Iconia Tab A510
+        </p>
+        <span
+          class="price-text"
+        >
+          <b>
+            230
+            €
+          </b>
+        </span>
+      </div>
+    </a>
+  </article>
+  <article
+    class="sc-bdvvtL kQKxTo"
+  >
+    <a
+      class="product-link"
+      href="/product/allegro"
+    >
+      <img
+        alt="Acer-Allegro"
+        loading="lazy"
+        src="https://front-test-api.herokuapp.com/images/q7dTIKOZuH9JA6CI_Ra6e.jpg"
+      />
+      <div
+        class="product-info"
+      >
+        <p>
+          <b>
+            Acer
+          </b>
+           
+          Allegro
+        </p>
+        <span
+          class="price-text"
+        >
+          <b>
+            140
+            €
+          </b>
+        </span>
+      </div>
+    </a>
+  </article>
+  <article
+    class="sc-bdvvtL kQKxTo"
+  >
+    <a
+      class="product-link"
+      href="/product/liquid-express-e320"
+    >
+      <img
+        alt="Acer-Liquid Express E320"
+        loading="lazy"
+        src="https://front-test-api.herokuapp.com/images/u-8MOMjQdhsgo2V3Ityi5.jpg"
+      />
+      <div
+        class="product-info"
+      >
+        <p>
+          <b>
+            Acer
+          </b>
+           
+          Liquid Express E320
+        </p>
+        <span
+          class="price-text"
+        >
+          <b>
+            90
+            €
+          </b>
+        </span>
+      </div>
+    </a>
+  </article>
+  <article
+    class="sc-bdvvtL kQKxTo"
+  >
+    <a
+      class="product-link"
+      href="/product/iconia-tab-a501"
+    >
+      <img
+        alt="Acer-Iconia Tab A501"
+        loading="lazy"
+        src="https://front-test-api.herokuapp.com/images/NOvNIuBJ4TynXv6iCbGW4.jpg"
+      />
+      <div
+        class="product-info"
+      >
+        <p>
+          <b>
+            Acer
+          </b>
+           
+          Iconia Tab A501
+        </p>
+        <span
+          class="price-text"
+        >
+          <b>
+            490
+            €
+          </b>
+        </span>
+      </div>
+    </a>
+  </article>
+  <article
+    class="sc-bdvvtL kQKxTo"
+  >
+    <a
+      class="product-link"
+      href="/product/iconia-smart"
+    >
+      <img
+        alt="Acer-Iconia Smart"
+        loading="lazy"
+        src="https://front-test-api.herokuapp.com/images/-4O8vBGXrrbiUEJsB_lHm.jpg"
+      />
+      <div
+        class="product-info"
+      >
+        <p>
+          <b>
+            Acer
+          </b>
+           
+          Iconia Smart
+        </p>
+        <span
+          class="price-text"
+        >
+          <b>
+            220
+            €
+          </b>
+        </span>
+      </div>
+    </a>
+  </article>
+  <article
+    class="sc-bdvvtL kQKxTo"
+  >
+    <a
+      class="product-link"
+      href="/product/iconia-tab-a500"
+    >
+      <img
+        alt="Acer-Iconia Tab A500"
+        loading="lazy"
+        src="https://front-test-api.herokuapp.com/images/MvzIc9fE3z2yOL9ZULOdp.jpg"
+      />
+      <div
+        class="product-info"
+      >
+        <p>
+          <b>
+            Acer
+          </b>
+           
+          Iconia Tab A500
+        </p>
+        <span
+          class="price-text"
+        >
+          <b>
+            200
+            €
+          </b>
+        </span>
+      </div>
+    </a>
+  </article>
+  <article
+    class="sc-bdvvtL kQKxTo"
+  >
+    <a
+      class="product-link"
+      href="/product/iconia-tab-a101"
+    >
+      <img
+        alt="Acer-Iconia Tab A101"
+        loading="lazy"
+        src="https://front-test-api.herokuapp.com/images/RVcsRojwBgmjwGwu5jKt5.jpg"
+      />
+      <div
+        class="product-info"
+      >
+        <p>
+          <b>
+            Acer
+          </b>
+           
+          Iconia Tab A101
+        </p>
+        <span
+          class="price-text"
+        >
+          <b>
+            260
+            €
+          </b>
+        </span>
+      </div>
+    </a>
+  </article>
+  <article
+    class="sc-bdvvtL kQKxTo"
+  >
+    <a
+      class="product-link"
+      href="/product/iconia-tab-a100"
+    >
+      <img
+        alt="Acer-Iconia Tab A100"
+        loading="lazy"
+        src="https://front-test-api.herokuapp.com/images/V5kL8FHvB89hXnpeTLNfy.jpg"
+      />
+      <div
+        class="product-info"
+      >
+        <p>
+          <b>
+            Acer
+          </b>
+           
+          Iconia Tab A100
+        </p>
+        <span
+          class="price-text"
+        >
+          <b>
+            100
+            €
+          </b>
+        </span>
+      </div>
+    </a>
+  </article>
+  <article
+    class="sc-bdvvtL kQKxTo"
+  >
+    <a
+      class="product-link"
+      href="/product/liquid-mini-e310"
+    >
+      <img
+        alt="Acer-Liquid mini E310"
+        loading="lazy"
+        src="https://front-test-api.herokuapp.com/images/YXchmkgzbCvPPUFnViAbT.jpg"
+      />
+      <div
+        class="product-info"
+      >
+        <p>
+          <b>
+            Acer
+          </b>
+           
+          Liquid mini E310
+        </p>
+        <span
+          class="price-text"
+        >
+          <b>
+            120
+            €
+          </b>
+        </span>
+      </div>
+    </a>
+  </article>
+  <article
+    class="sc-bdvvtL kQKxTo"
+  >
+    <a
+      class="product-link"
+      href="/product/betouch-e210"
+    >
+      <img
+        alt="Acer-beTouch E210"
+        loading="lazy"
+        src="https://front-test-api.herokuapp.com/images/Tpt8s3EHzIPa_XxEvQJvt.jpg"
+      />
+      <div
+        class="product-info"
+      >
+        <p>
+          <b>
+            Acer
+          </b>
+           
+          beTouch E210
+        </p>
+        <span
+          class="price-text"
+        >
+          <b>
+            150
+            €
+          </b>
+        </span>
+      </div>
+    </a>
+  </article>
+  <article
+    class="sc-bdvvtL kQKxTo"
+  >
+    <a
+      class="product-link"
+      href="/product/betouch-e140"
+    >
+      <img
+        alt="Acer-beTouch E140"
+        loading="lazy"
+        src="https://front-test-api.herokuapp.com/images/dcISDHcfR7V3CKL3TXP6T.jpg"
+      />
+      <div
+        class="product-info"
+      >
+        <p>
+          <b>
+            Acer
+          </b>
+           
+          beTouch E140
+        </p>
+        <span
+          class="price-text"
+        >
+          <b>
+            110
+            €
+          </b>
+        </span>
+      </div>
+    </a>
+  </article>
+  <article
+    class="sc-bdvvtL kQKxTo"
+  >
+    <a
+      class="product-link"
+      href="/product/betouch-t500"
+    >
+      <img
+        alt="Acer-beTouch T500"
+        loading="lazy"
+        src="https://front-test-api.herokuapp.com/images/vfjH-DuILu6ekhXVGnBuJ.jpg"
+      />
+      <div
+        class="product-info"
+      >
+        <p>
+          <b>
+            Acer
+          </b>
+           
+          beTouch T500
+        </p>
+        <span
+          class="price-text"
+        >
+          <b>
+            70
+            €
+          </b>
+        </span>
+      </div>
+    </a>
+  </article>
+  <article
+    class="sc-bdvvtL kQKxTo"
+  >
+    <a
+      class="product-link"
+      href="/product/liquid-mt"
+    >
+      <img
+        alt="Acer-Liquid mt"
+        loading="lazy"
+        src="https://front-test-api.herokuapp.com/images/cA2Wk4BxumBdusJqWgqmK.jpg"
+      />
+      <div
+        class="product-info"
+      >
+        <p>
+          <b>
+            Acer
+          </b>
+           
+          Liquid mt
+        </p>
+        <span
+          class="price-text"
+        >
+          <b>
+            70
+            €
+          </b>
+        </span>
+      </div>
+    </a>
+  </article>
+  <article
+    class="sc-bdvvtL kQKxTo"
+  >
+    <a
+      class="product-link"
+      href="/product/betouch-e130"
+    >
+      <img
+        alt="Acer-beTouch E130"
+        loading="lazy"
+        src="https://front-test-api.herokuapp.com/images/TyVJrrYOXZ7tUIp5CmQpf.jpg"
+      />
+      <div
+        class="product-info"
+      >
+        <p>
+          <b>
+            Acer
+          </b>
+           
+          beTouch E130
+        </p>
+        <span
+          class="price-text"
+        >
+          <b>
+            90
+            €
+          </b>
+        </span>
+      </div>
+    </a>
+  </article>
+  <article
+    class="sc-bdvvtL kQKxTo"
+  >
+    <a
+      class="product-link"
+      href="/product/betouch-e120"
+    >
+      <img
+        alt="Acer-beTouch E120"
+        loading="lazy"
+        src="https://front-test-api.herokuapp.com/images/uR460qzFR1toHbdnkG7wg.jpg"
+      />
+      <div
+        class="product-info"
+      >
+        <p>
+          <b>
+            Acer
+          </b>
+           
+          beTouch E120
+        </p>
+        <span
+          class="price-text"
+        >
+          <b>
+            70
+            €
+          </b>
+        </span>
+      </div>
+    </a>
+  </article>
+  <article
+    class="sc-bdvvtL kQKxTo"
+  >
+    <a
+      class="product-link"
+      href="/product/stream"
+    >
+      <img
+        alt="Acer-Stream"
+        loading="lazy"
+        src="https://front-test-api.herokuapp.com/images/A6O_GKJO7wULBR_6N6bMT.jpg"
+      />
+      <div
+        class="product-info"
+      >
+        <p>
+          <b>
+            Acer
+          </b>
+           
+          Stream
+        </p>
+        <span
+          class="price-text"
+        >
+          <b>
+            130
+            €
+          </b>
+        </span>
+      </div>
+    </a>
+  </article>
+  <article
+    class="sc-bdvvtL kQKxTo"
+  >
+    <a
+      class="product-link"
+      href="/product/liquid-e"
+    >
+      <img
+        alt="Acer-Liquid E"
+        loading="lazy"
+        src="https://front-test-api.herokuapp.com/images/dH76_NzR5EnodZrACefy_.jpg"
+      />
+      <div
+        class="product-info"
+      >
+        <p>
+          <b>
+            Acer
+          </b>
+           
+          Liquid E
+        </p>
+        <span
+          class="price-text"
+        >
+          <b>
+            90
+            €
+          </b>
+        </span>
+      </div>
+    </a>
+  </article>
+  <article
+    class="sc-bdvvtL kQKxTo"
+  >
+    <a
+      class="product-link"
+      href="/product/neotouch-p400"
+    >
+      <img
+        alt="Acer-neoTouch P400"
+        loading="lazy"
+        src="https://front-test-api.herokuapp.com/images/6gCiNYFI9dx4ru5PCNcIE.jpg"
+      />
+      <div
+        class="product-info"
+      >
+        <p>
+          <b>
+            Acer
+          </b>
+           
+          neoTouch P400
+        </p>
+        <span
+          class="price-text"
+        >
+          <b>
+            100
+            €
+          </b>
+        </span>
+      </div>
+    </a>
+  </article>
+  <article
+    class="sc-bdvvtL kQKxTo"
+  >
+    <a
+      class="product-link"
+      href="/product/betouch-e400"
+    >
+      <img
+        alt="Acer-beTouch E400"
+        loading="lazy"
+        src="https://front-test-api.herokuapp.com/images/8rj7Ld7jL_ZuxL_XiMTrI.jpg"
+      />
+      <div
+        class="product-info"
+      >
+        <p>
+          <b>
+            Acer
+          </b>
+           
+          beTouch E400
+        </p>
+        <span
+          class="price-text"
+        >
+          <b>
+            80
+            €
+          </b>
+        </span>
+      </div>
+    </a>
+  </article>
+  <article
+    class="sc-bdvvtL kQKxTo"
+  >
+    <a
+      class="product-link"
+      href="/product/neotouch-p300"
+    >
+      <img
+        alt="Acer-neoTouch P300"
+        loading="lazy"
+        src="https://front-test-api.herokuapp.com/images/RrXswU_J_6DJNe6TLruO8.jpg"
+      />
+      <div
+        class="product-info"
+      >
+        <p>
+          <b>
+            Acer
+          </b>
+           
+          neoTouch P300
+        </p>
+        <span
+          class="price-text"
+        >
+          <b>
+            80
+            €
+          </b>
+        </span>
+      </div>
+    </a>
+  </article>
+  <article
+    class="sc-bdvvtL kQKxTo"
+  >
+    <a
+      class="product-link"
+      href="/product/betouch-e110"
+    >
+      <img
+        alt="Acer-beTouch E110"
+        loading="lazy"
+        src="https://front-test-api.herokuapp.com/images/nK_hcDnkQ7g9I1fFt9gDs.jpg"
+      />
+      <div
+        class="product-info"
+      >
+        <p>
+          <b>
+            Acer
+          </b>
+           
+          beTouch E110
+        </p>
+        <span
+          class="price-text"
+        >
+          <b>
+            70
+            €
+          </b>
+        </span>
+      </div>
+    </a>
+  </article>
+  <article
+    class="sc-bdvvtL kQKxTo"
+  >
+    <a
+      class="product-link"
+      href="/product/liquid"
+    >
+      <img
+        alt="Acer-Liquid"
+        loading="lazy"
+        src="https://front-test-api.herokuapp.com/images/AXosvMJNJg_Qb5i0Kl1zN.jpg"
+      />
+      <div
+        class="product-info"
+      >
+        <p>
+          <b>
+            Acer
+          </b>
+           
+          Liquid
+        </p>
+        <span
+          class="price-text"
+        >
+          <b>
+            90
+            €
+          </b>
+        </span>
+      </div>
+    </a>
+  </article>
+  <article
+    class="sc-bdvvtL kQKxTo"
+  >
+    <a
+      class="product-link"
+      href="/product/neotouch"
+    >
+      <img
+        alt="Acer-neoTouch"
+        loading="lazy"
+        src="https://front-test-api.herokuapp.com/images/RTZZ2EdfprY8CEB9r1TKq.jpg"
+      />
+      <div
+        class="product-info"
+      >
+        <p>
+          <b>
+            Acer
+          </b>
+           
+          neoTouch
+        </p>
+        <span
+          class="price-text"
+        >
+          <b>
+            210
+            €
+          </b>
+        </span>
+      </div>
+    </a>
+  </article>
+  <article
+    class="sc-bdvvtL kQKxTo"
+  >
+    <a
+      class="product-link"
+      href="/product/betouch-e200"
+    >
+      <img
+        alt="Acer-beTouch E200"
+        loading="lazy"
+        src="https://front-test-api.herokuapp.com/images/Kp3sPPPhisb30VX3lK2Vy.jpg"
+      />
+      <div
+        class="product-info"
+      >
+        <p>
+          <b>
+            Acer
+          </b>
+           
+          beTouch E200
+        </p>
+        <span
+          class="price-text"
+        >
+          <b>
+            190
+            €
+          </b>
+        </span>
+      </div>
+    </a>
+  </article>
+  <article
+    class="sc-bdvvtL kQKxTo"
+  >
+    <a
+      class="product-link"
+      href="/product/betouch-e100"
+    >
+      <img
+        alt="Acer-beTouch E100"
+        loading="lazy"
+        src="https://front-test-api.herokuapp.com/images/BC3pESqzrm3o5sSlm2Hon.jpg"
+      />
+      <div
+        class="product-info"
+      >
+        <p>
+          <b>
+            Acer
+          </b>
+           
+          beTouch E100
+        </p>
+        <span
+          class="price-text"
+        >
+          <b>
+            180
+            €
+          </b>
+        </span>
+      </div>
+    </a>
+  </article>
+  <article
+    class="sc-bdvvtL kQKxTo"
+  >
+    <a
+      class="product-link"
+      href="/product/betouch-e101"
+    >
+      <img
+        alt="Acer-beTouch E101"
+        loading="lazy"
+        src="https://front-test-api.herokuapp.com/images/StwQ4HhgqBbWXcC2Pdnnj.jpg"
+      />
+      <div
+        class="product-info"
+      >
+        <p>
+          <b>
+            Acer
+          </b>
+           
+          beTouch E101
+        </p>
+        <span
+          class="price-text"
+        >
+          <b>
+            170
+            €
+          </b>
+        </span>
+      </div>
+    </a>
+  </article>
+  <article
+    class="sc-bdvvtL kQKxTo"
+  >
+    <a
+      class="product-link"
+      href="/product/dx650"
+    >
+      <img
+        alt="Acer-DX650"
+        loading="lazy"
+        src="https://front-test-api.herokuapp.com/images/mQWbDUsIUEPZy2My8Qxvl.jpg"
+      />
+      <div
+        class="product-info"
+      >
+        <p>
+          <b>
+            Acer
+          </b>
+           
+          DX650
+        </p>
+        <span
+          class="price-text"
+        >
+          <b>
+            150
+            €
+          </b>
+        </span>
+      </div>
+    </a>
+  </article>
+  <article
+    class="sc-bdvvtL kQKxTo"
+  >
+    <a
+      class="product-link"
+      href="/product/m900"
+    >
+      <img
+        alt="Acer-M900"
+        loading="lazy"
+        src="https://front-test-api.herokuapp.com/images/y0gsWxpC3VOMjM-QOtYAy.jpg"
+      />
+      <div
+        class="product-info"
+      >
+        <p>
+          <b>
+            Acer
+          </b>
+           
+          M900
+        </p>
+        <span
+          class="price-text"
+        >
+          <b>
+            250
+            €
+          </b>
+        </span>
+      </div>
+    </a>
+  </article>
+  <article
+    class="sc-bdvvtL kQKxTo"
+  >
+    <a
+      class="product-link"
+      href="/product/f900"
+    >
+      <img
+        alt="Acer-F900"
+        loading="lazy"
+        src="https://front-test-api.herokuapp.com/images/TGgs7RUREJwm8yTC3y8Wl.jpg"
+      />
+      <div
+        class="product-info"
+      >
+        <p>
+          <b>
+            Acer
+          </b>
+           
+          F900
+        </p>
+        <span
+          class="price-text"
+        >
+          <b>
+            210
+            €
+          </b>
+        </span>
+      </div>
+    </a>
+  </article>
+  <article
+    class="sc-bdvvtL kQKxTo"
+  >
+    <a
+      class="product-link"
+      href="/product/x960"
+    >
+      <img
+        alt="Acer-X960"
+        loading="lazy"
+        src="https://front-test-api.herokuapp.com/images/Zwyh5cy7MzyIMJpwYcM8b.jpg"
+      />
+      <div
+        class="product-info"
+      >
+        <p>
+          <b>
+            Acer
+          </b>
+           
+          X960
+        </p>
+        <span
+          class="price-text"
+        >
+          <b>
+            270
+            €
+          </b>
+        </span>
+      </div>
+    </a>
+  </article>
+  <article
+    class="sc-bdvvtL kQKxTo"
+  >
+    <a
+      class="product-link"
+      href="/product/dx900"
+    >
+      <img
+        alt="Acer-DX900"
+        loading="lazy"
+        src="https://front-test-api.herokuapp.com/images/skjDqIJgq-OGRaUNXXCCu.jpg"
+      />
+      <div
+        class="product-info"
+      >
+        <p>
+          <b>
+            Acer
+          </b>
+           
+          DX900
+        </p>
+        <span
+          class="price-text"
+        >
+          <b>
+            90
+            €
+          </b>
+        </span>
+      </div>
+    </a>
+  </article>
+  <article
+    class="sc-bdvvtL kQKxTo"
+  >
+    <a
+      class="product-link"
+      href="/product/flash-(2017)"
+    >
+      <img
+        alt="alcatel-Flash (2017)"
+        loading="lazy"
+        src="https://front-test-api.herokuapp.com/images/AasKFs5EGbyAEIKkcHQcF.jpg"
+      />
+      <div
+        class="product-info"
+      >
+        <p>
+          <b>
+            alcatel
+          </b>
+           
+          Flash (2017)
+        </p>
+        <span
+          class="price-text"
+        >
+          <small>
+            Price to be consulted
+          </small>
+        </span>
+      </div>
+    </a>
+  </article>
+</div>
+`;
+
+exports[`ProductList should match snapshot ProductList with message error 1`] = `
+<div>
+  <p>
+    Shomething was wrong... :(
+  </p>
+</div>
+`;
+
+exports[`ProductList should match snapshot ProductList with not found products message 1`] = `
+<div>
+  <p>
+    Not products found
+  </p>
+</div>
+`;
