@@ -6,5 +6,11 @@ export const AddToCartButton = ({ userOptions, text, children }) => {
     ? !userOptions.colorCode || !userOptions.storageCode
     : true;
 
-  return <Button text={text} children={children} disabled={disabled} />;
+  return (
+    <Button
+      text={text || 'Add to cart'}
+      children={children}
+      disabled={disabled}
+    />
+  );
 };
