@@ -3,7 +3,9 @@ import styled from 'styled-components';
 
 export const Button = ({ text, children, disabled }) => {
   return (
-    <ButtonStyled disabled={disabled}>{text ? text : children}</ButtonStyled>
+    <ButtonStyled disabled={disabled}>
+      {text ? text : children ? children : 'Click me!'}
+    </ButtonStyled>
   );
 };
 
