@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 
-export const Description = ({ product }) => {
+const Description = ({ product }) => {
   const {
     brand,
     model,
@@ -54,7 +54,7 @@ export const Description = ({ product }) => {
           {ram && (
             <>
               <dt>RAM</dt>
-              <dd>{ram}</dd>
+              <dd>{ram.replace(/ram/i, '')}</dd>
             </>
           )}
           {os && (
@@ -72,7 +72,7 @@ export const Description = ({ product }) => {
           {battery && (
             <>
               <dt>Battery</dt>
-              <dd>{battery}</dd>
+              <dd>{battery.replace(/battery/i, '')}</dd>
             </>
           )}
           {dimensions && (
@@ -84,7 +84,7 @@ export const Description = ({ product }) => {
           {weight && (
             <>
               <dt>Weight</dt>
-              <dd>{weight}</dd>
+              <dd>{weight} gr</dd>
             </>
           )}
         </dl>
@@ -92,7 +92,7 @@ export const Description = ({ product }) => {
           {(primaryCamera || secondaryCamera) && (
             <>
               <dt>Cameras</dt>
-              <dd>
+              <dl>
                 {primaryCamera && (
                   <>
                     <dt>Primary Camera</dt>
@@ -105,7 +105,7 @@ export const Description = ({ product }) => {
                     <dd>{secondaryCamera}</dd>
                   </>
                 )}
-              </dd>
+              </dl>
             </>
           )}
 
@@ -205,4 +205,9 @@ const DescriptionStyled = styled.article`
 
     justify-content: space-evenly;
   }
+
+  & > .cameras {
+    display: flex;
+  }
 `;
+export default Description;
