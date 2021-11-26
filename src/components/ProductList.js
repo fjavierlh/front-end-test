@@ -18,7 +18,7 @@ const ListProduct = ({ products, loadState }) => {
             price={price}
           />
         ))}
-      {success && products.length === 0 && <p>No products found</p>}
+      {success && products.length === 0 && <p>Not products found</p>}
     </>
   );
 };
